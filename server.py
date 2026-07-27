@@ -132,7 +132,12 @@ STATIC = {
     "/index.html": ("static/index.html", "text/html; charset=utf-8"),
     "/reader.css": ("static/reader.css", "text/css; charset=utf-8"),
     "/reader.js": ("static/reader.js", "application/javascript; charset=utf-8"),
+    "/tones": ("static/tones.html", "text/html; charset=utf-8"),
+    "/tones.html": ("static/tones.html", "text/html; charset=utf-8"),
+    "/tones.css": ("static/tones.css", "text/css; charset=utf-8"),
+    "/tones.js": ("static/tones.js", "application/javascript; charset=utf-8"),
     "/data/texts.json": ("data/texts.json", "application/json; charset=utf-8"),
+    "/data/tones.json": ("data/tones.json", "application/json; charset=utf-8"),
 }
 
 

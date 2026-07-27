@@ -115,6 +115,7 @@ header {
   white-space: nowrap;
 }
 .toggle[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+a.toggle { text-decoration: none; display: inline-flex; align-items: center; }
 
 /* app body ------------------------------------------------------------------ */
 .app {

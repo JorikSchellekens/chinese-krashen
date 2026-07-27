@@ -1,0 +1,1988 @@
+{
+ "minimal_sets": [
+  {
+   "base": "ma",
+   "options": [
+    {
+     "h": "妈",
+     "p": "mā",
+     "t": 1,
+     "g": "mother"
+    },
+    {
+     "h": "麻",
+     "p": "má",
+     "t": 2,
+     "g": "hemp / numb"
+    },
+    {
+     "h": "马",
+     "p": "mǎ",
+     "t": 3,
+     "g": "horse"
+    },
+    {
+     "h": "骂",
+     "p": "mà",
+     "t": 4,
+     "g": "to scold"
+    }
+   ]
+  },
+  {
+   "base": "ba",
+   "options": [
+    {
+     "h": "八",
+     "p": "bā",
+     "t": 1,
+     "g": "eight"
+    },
+    {
+     "h": "拔",
+     "p": "bá",
+     "t": 2,
+     "g": "to pull out"
+    },
+    {
+     "h": "把",
+     "p": "bǎ",
+     "t": 3,
+     "g": "to hold / handle"
+    },
+    {
+     "h": "爸",
+     "p": "bà",
+     "t": 4,
+     "g": "dad"
+    }
+   ]
+  },
+  {
+   "base": "yi",
+   "options": [
+    {
+     "h": "一",
+     "p": "yī",
+     "t": 1,
+     "g": "one"
+    },
+    {
+     "h": "姨",
+     "p": "yí",
+     "t": 2,
+     "g": "aunt"
+    },
+    {
+     "h": "椅",
+     "p": "yǐ",
+     "t": 3,
+     "g": "chair"
+    },
+    {
+     "h": "意",
+     "p": "yì",
+     "t": 4,
+     "g": "meaning"
+    }
+   ]
+  },
+  {
+   "base": "wu",
+   "options": [
+    {
+     "h": "屋",
+     "p": "wū",
+     "t": 1,
+     "g": "room / house"
+    },
+    {
+     "h": "无",
+     "p": "wú",
+     "t": 2,
+     "g": "without"
+    },
+    {
+     "h": "五",
+     "p": "wǔ",
+     "t": 3,
+     "g": "five"
+    },
+    {
+     "h": "雾",
+     "p": "wù",
+     "t": 4,
+     "g": "fog"
+    }
+   ]
+  },
+  {
+   "base": "tang",
+   "options": [
+    {
+     "h": "汤",
+     "p": "tāng",
+     "t": 1,
+     "g": "soup"
+    },
+    {
+     "h": "糖",
+     "p": "táng",
+     "t": 2,
+     "g": "sugar"
+    },
+    {
+     "h": "躺",
+     "p": "tǎng",
+     "t": 3,
+     "g": "to lie down"
+    },
+    {
+     "h": "烫",
+     "p": "tàng",
+     "t": 4,
+     "g": "scalding hot"
+    }
+   ]
+  },
+  {
+   "base": "bao",
+   "options": [
+    {
+     "h": "包",
+     "p": "bāo",
+     "t": 1,
+     "g": "to wrap / bun"
+    },
+    {
+     "h": "薄",
+     "p": "báo",
+     "t": 2,
+     "g": "thin"
+    },
+    {
+     "h": "饱",
+     "p": "bǎo",
+     "t": 3,
+     "g": "full (from eating)"
+    },
+    {
+     "h": "抱",
+     "p": "bào",
+     "t": 4,
+     "g": "to hug"
+    }
+   ]
+  },
+  {
+   "base": "shu",
+   "options": [
+    {
+     "h": "书",
+     "p": "shū",
+     "t": 1,
+     "g": "book"
+    },
+    {
+     "h": "熟",
+     "p": "shú",
+     "t": 2,
+     "g": "ripe / cooked"
+    },
+    {
+     "h": "鼠",
+     "p": "shǔ",
+     "t": 3,
+     "g": "rat / mouse"
+    },
+    {
+     "h": "树",
+     "p": "shù",
+     "t": 4,
+     "g": "tree"
+    }
+   ]
+  },
+  {
+   "base": "qing",
+   "options": [
+    {
+     "h": "青",
+     "p": "qīng",
+     "t": 1,
+     "g": "green / blue"
+    },
+    {
+     "h": "晴",
+     "p": "qíng",
+     "t": 2,
+     "g": "clear (sky)"
+    },
+    {
+     "h": "请",
+     "p": "qǐng",
+     "t": 3,
+     "g": "please / to invite"
+    },
+    {
+     "h": "庆",
+     "p": "qìng",
+     "t": 4,
+     "g": "to celebrate"
+    }
+   ]
+  },
+  {
+   "base": "xi",
+   "options": [
+    {
+     "h": "西",
+     "p": "xī",
+     "t": 1,
+     "g": "west"
+    },
+    {
+     "h": "习",
+     "p": "xí",
+     "t": 2,
+     "g": "to practise"
+    },
+    {
+     "h": "洗",
+     "p": "xǐ",
+     "t": 3,
+     "g": "to wash"
+    },
+    {
+     "h": "戏",
+     "p": "xì",
+     "t": 4,
+     "g": "play / drama"
+    }
+   ]
+  },
+  {
+   "base": "fan",
+   "options": [
+    {
+     "h": "翻",
+     "p": "fān",
+     "t": 1,
+     "g": "to flip over"
+    },
+    {
+     "h": "烦",
+     "p": "fán",
+     "t": 2,
+     "g": "annoyed"
+    },
+    {
+     "h": "反",
+     "p": "fǎn",
+     "t": 3,
+     "g": "reverse / opposite"
+    },
+    {
+     "h": "饭",
+     "p": "fàn",
+     "t": 4,
+     "g": "rice / meal"
+    }
+   ]
+  },
+  {
+   "base": "t[i]ao",
+   "options": [
+    {
+     "h": "挑",
+     "p": "tiāo",
+     "t": 1,
+     "g": "to pick / choose"
+    },
+    {
+     "h": "条",
+     "p": "tiáo",
+     "t": 2,
+     "g": "strip / measure word"
+    },
+    {
+     "h": "跳",
+     "p": "tiào",
+     "t": 4,
+     "g": "to jump"
+    }
+   ]
+  },
+  {
+   "base": "mai",
+   "options": [
+    {
+     "h": "埋",
+     "p": "mái",
+     "t": 2,
+     "g": "to bury"
+    },
+    {
+     "h": "买",
+     "p": "mǎi",
+     "t": 3,
+     "g": "to buy"
+    },
+    {
+     "h": "卖",
+     "p": "mài",
+     "t": 4,
+     "g": "to sell"
+    }
+   ]
+  }
+ ],
+ "singles": [
+  {
+   "h": "你",
+   "p": "nǐ",
+   "g": "you",
+   "pattern": [
+    3
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "我",
+   "p": "wǒ",
+   "g": "I, me",
+   "pattern": [
+    3
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "他",
+   "p": "tā",
+   "g": "he / she",
+   "pattern": [
+    1
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "人",
+   "p": "rén",
+   "g": "person",
+   "pattern": [
+    2
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "家",
+   "p": "jiā",
+   "g": "home, family",
+   "pattern": [
+    1
+   ],
+   "track": "Family & home"
+  },
+  {
+   "h": "菜",
+   "p": "cài",
+   "g": "food, dish",
+   "pattern": [
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "茶",
+   "p": "chá",
+   "g": "tea",
+   "pattern": [
+    2
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "水",
+   "p": "shuǐ",
+   "g": "water",
+   "pattern": [
+    3
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "面",
+   "p": "miàn",
+   "g": "noodles",
+   "pattern": [
+    4
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "鱼",
+   "p": "yú",
+   "g": "fish",
+   "pattern": [
+    2
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "肉",
+   "p": "ròu",
+   "g": "meat",
+   "pattern": [
+    4
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "饭",
+   "p": "fàn",
+   "g": "a meal, cooked rice",
+   "pattern": [
+    4
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "点",
+   "p": "diǎn",
+   "g": "o'clock",
+   "pattern": [
+    3
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "半",
+   "p": "bàn",
+   "g": "half (half past)",
+   "pattern": [
+    4
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "号",
+   "p": "hào",
+   "g": "day (of the month)",
+   "pattern": [
+    4
+   ],
+   "track": "Days & dates"
+  },
+  {
+   "h": "一",
+   "p": "yī",
+   "g": "one",
+   "pattern": [
+    1
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "二",
+   "p": "èr",
+   "g": "two",
+   "pattern": [
+    4
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "三",
+   "p": "sān",
+   "g": "three",
+   "pattern": [
+    1
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "四",
+   "p": "sì",
+   "g": "four",
+   "pattern": [
+    4
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "五",
+   "p": "wǔ",
+   "g": "five",
+   "pattern": [
+    3
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "六",
+   "p": "liù",
+   "g": "six",
+   "pattern": [
+    4
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "七",
+   "p": "qī",
+   "g": "seven",
+   "pattern": [
+    1
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "八",
+   "p": "bā",
+   "g": "eight",
+   "pattern": [
+    1
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "九",
+   "p": "jiǔ",
+   "g": "nine",
+   "pattern": [
+    3
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "十",
+   "p": "shí",
+   "g": "ten",
+   "pattern": [
+    2
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "零",
+   "p": "líng",
+   "g": "zero",
+   "pattern": [
+    2
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "两",
+   "p": "liǎng",
+   "g": "two (of things: liǎng ge)",
+   "pattern": [
+    3
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "岁",
+   "p": "suì",
+   "g": "years old",
+   "pattern": [
+    4
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "块",
+   "p": "kuài",
+   "g": "yuan (unit of money)",
+   "pattern": [
+    4
+   ],
+   "track": "Shopping & money"
+  },
+  {
+   "h": "叫",
+   "p": "jiào",
+   "g": "to be called",
+   "pattern": [
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "是",
+   "p": "shì",
+   "g": "to be (am / is / are)",
+   "pattern": [
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "说",
+   "p": "shuō",
+   "g": "to speak, to say",
+   "pattern": [
+    1
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "有",
+   "p": "yǒu",
+   "g": "to have",
+   "pattern": [
+    3
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "住",
+   "p": "zhù",
+   "g": "to live, to stay",
+   "pattern": [
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "想",
+   "p": "xiǎng",
+   "g": "to want to, would like to",
+   "pattern": [
+    3
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "去",
+   "p": "qù",
+   "g": "to go, to go to",
+   "pattern": [
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "来",
+   "p": "lái",
+   "g": "to come",
+   "pattern": [
+    2
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "吃",
+   "p": "chī",
+   "g": "to eat",
+   "pattern": [
+    1
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "会",
+   "p": "huì",
+   "g": "will, can",
+   "pattern": [
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "喝",
+   "p": "hē",
+   "g": "to drink",
+   "pattern": [
+    1
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "要",
+   "p": "yào",
+   "g": "to want, to need, to order",
+   "pattern": [
+    4
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "做",
+   "p": "zuò",
+   "g": "to do",
+   "pattern": [
+    4
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "看",
+   "p": "kàn",
+   "g": "to look, watch, read",
+   "pattern": [
+    4
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "坐",
+   "p": "zuò",
+   "g": "to sit; to travel by (zuò chē)",
+   "pattern": [
+    4
+   ],
+   "track": "Places & directions"
+  },
+  {
+   "h": "买",
+   "p": "mǎi",
+   "g": "to buy",
+   "pattern": [
+    3
+   ],
+   "track": "Shopping & money"
+  },
+  {
+   "h": "打",
+   "p": "dǎ",
+   "g": "to play (a ball game), to hit",
+   "pattern": [
+    3
+   ],
+   "track": "Hobbies"
+  },
+  {
+   "h": "踢",
+   "p": "tī",
+   "g": "to kick",
+   "pattern": [
+    1
+   ],
+   "track": "Hobbies"
+  },
+  {
+   "h": "听",
+   "p": "tīng",
+   "g": "to listen",
+   "pattern": [
+    1
+   ],
+   "track": "Hobbies"
+  },
+  {
+   "h": "唱",
+   "p": "chàng",
+   "g": "to sing",
+   "pattern": [
+    4
+   ],
+   "track": "Hobbies"
+  },
+  {
+   "h": "疼",
+   "p": "téng",
+   "g": "to ache, to hurt",
+   "pattern": [
+    2
+   ],
+   "track": "Feelings & body"
+  },
+  {
+   "h": "好",
+   "p": "hǎo",
+   "g": "good, well",
+   "pattern": [
+    3
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "很",
+   "p": "hěn",
+   "g": "very",
+   "pattern": [
+    3
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "还",
+   "p": "hái",
+   "g": "still, fairly",
+   "pattern": [
+    2
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "太",
+   "p": "tài",
+   "g": "too, overly",
+   "pattern": [
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "也",
+   "p": "yě",
+   "g": "also, too",
+   "pattern": [
+    3
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "多",
+   "p": "duō",
+   "g": "much, many",
+   "pattern": [
+    1
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "都",
+   "p": "dōu",
+   "g": "both, all",
+   "pattern": [
+    1
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "难",
+   "p": "nán",
+   "g": "hard, difficult",
+   "pattern": [
+    2
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "对",
+   "p": "duì",
+   "g": "right, correct",
+   "pattern": [
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "大",
+   "p": "dà",
+   "g": "big; old (of age)",
+   "pattern": [
+    4
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "小",
+   "p": "xiǎo",
+   "g": "small; young",
+   "pattern": [
+    3
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "渴",
+   "p": "kě",
+   "g": "thirsty",
+   "pattern": [
+    3
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "饿",
+   "p": "è",
+   "g": "hungry",
+   "pattern": [
+    4
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "近",
+   "p": "jìn",
+   "g": "near, close",
+   "pattern": [
+    4
+   ],
+   "track": "Places & directions"
+  },
+  {
+   "h": "远",
+   "p": "yuǎn",
+   "g": "far",
+   "pattern": [
+    3
+   ],
+   "track": "Places & directions"
+  },
+  {
+   "h": "贵",
+   "p": "guì",
+   "g": "expensive",
+   "pattern": [
+    4
+   ],
+   "track": "Shopping & money"
+  },
+  {
+   "h": "新",
+   "p": "xīn",
+   "g": "new",
+   "pattern": [
+    1
+   ],
+   "track": "Colours & things"
+  },
+  {
+   "h": "旧",
+   "p": "jiù",
+   "g": "old (of things)",
+   "pattern": [
+    4
+   ],
+   "track": "Colours & things"
+  },
+  {
+   "h": "热",
+   "p": "rè",
+   "g": "hot",
+   "pattern": [
+    4
+   ],
+   "track": "Weather & seasons"
+  },
+  {
+   "h": "冷",
+   "p": "lěng",
+   "g": "cold",
+   "pattern": [
+    3
+   ],
+   "track": "Weather & seasons"
+  },
+  {
+   "h": "忙",
+   "p": "máng",
+   "g": "busy",
+   "pattern": [
+    2
+   ],
+   "track": "Feelings & body"
+  },
+  {
+   "h": "累",
+   "p": "lèi",
+   "g": "tired",
+   "pattern": [
+    4
+   ],
+   "track": "Feelings & body"
+  },
+  {
+   "h": "吗",
+   "p": "ma",
+   "g": "(turns a sentence into a yes/no question)",
+   "pattern": [
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "呢",
+   "p": "ne",
+   "g": "and you? / what about...?",
+   "pattern": [
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "谁",
+   "p": "shéi",
+   "g": "who",
+   "pattern": [
+    2
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "几",
+   "p": "jǐ",
+   "g": "how many (small number)",
+   "pattern": [
+    3
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "啊",
+   "p": "a",
+   "g": "ah (a soft exclamation)",
+   "pattern": [
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "请",
+   "p": "qǐng",
+   "g": "please",
+   "pattern": [
+    3
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "不",
+   "p": "bù",
+   "g": "not",
+   "pattern": [
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "的",
+   "p": "de",
+   "g": "('s / of - links a describer to a noun)",
+   "pattern": [
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "和",
+   "p": "hé",
+   "g": "and",
+   "pattern": [
+    2
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "在",
+   "p": "zài",
+   "g": "to be at / in (a place)",
+   "pattern": [
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "再",
+   "p": "zài",
+   "g": "again",
+   "pattern": [
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "了",
+   "p": "le",
+   "g": "(marks something completed or changed)",
+   "pattern": [
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "个",
+   "p": "ge",
+   "g": "(the everyday counting word: sān ge rén)",
+   "pattern": [
+    5
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "里",
+   "p": "lǐ",
+   "g": "inside (X lǐ = in X)",
+   "pattern": [
+    3
+   ],
+   "track": "Places & directions"
+  },
+  {
+   "h": "书",
+   "p": "shū",
+   "g": "book",
+   "pattern": [
+    1
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "车",
+   "p": "chē",
+   "g": "car, vehicle",
+   "pattern": [
+    1
+   ],
+   "track": "Places & directions"
+  },
+  {
+   "h": "钱",
+   "p": "qián",
+   "g": "money",
+   "pattern": [
+    2
+   ],
+   "track": "Shopping & money"
+  },
+  {
+   "h": "球",
+   "p": "qiú",
+   "g": "ball",
+   "pattern": [
+    2
+   ],
+   "track": "Hobbies"
+  },
+  {
+   "h": "歌",
+   "p": "gē",
+   "g": "song",
+   "pattern": [
+    1
+   ],
+   "track": "Hobbies"
+  },
+  {
+   "h": "头",
+   "p": "tóu",
+   "g": "head",
+   "pattern": [
+    2
+   ],
+   "track": "Feelings & body"
+  },
+  {
+   "h": "病",
+   "p": "bìng",
+   "g": "illness; to be ill",
+   "pattern": [
+    4
+   ],
+   "track": "Feelings & body"
+  }
+ ],
+ "pairs": [
+  {
+   "h": "他们",
+   "p": "tāmen",
+   "g": "they",
+   "pattern": [
+    1,
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "我们",
+   "p": "wǒmen",
+   "g": "we, us",
+   "pattern": [
+    3,
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "小林",
+   "p": "Xiǎolín",
+   "g": "Xiaolin (a name)",
+   "pattern": [
+    3,
+    2
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "老师",
+   "p": "lǎoshī",
+   "g": "teacher",
+   "pattern": [
+    3,
+    1
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "朋友",
+   "p": "péngyou",
+   "g": "friend",
+   "pattern": [
+    2,
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "爸爸",
+   "p": "bàba",
+   "g": "dad",
+   "pattern": [
+    4,
+    5
+   ],
+   "track": "Family & home"
+  },
+  {
+   "h": "妈妈",
+   "p": "māma",
+   "g": "mum",
+   "pattern": [
+    1,
+    5
+   ],
+   "track": "Family & home"
+  },
+  {
+   "h": "哥哥",
+   "p": "gēge",
+   "g": "older brother",
+   "pattern": [
+    1,
+    5
+   ],
+   "track": "Family & home"
+  },
+  {
+   "h": "妹妹",
+   "p": "mèimei",
+   "g": "younger sister",
+   "pattern": [
+    4,
+    5
+   ],
+   "track": "Family & home"
+  },
+  {
+   "h": "弟弟",
+   "p": "dìdi",
+   "g": "younger brother",
+   "pattern": [
+    4,
+    5
+   ],
+   "track": "Family & home"
+  },
+  {
+   "h": "姐姐",
+   "p": "jiějie",
+   "g": "older sister",
+   "pattern": [
+    3,
+    5
+   ],
+   "track": "Family & home"
+  },
+  {
+   "h": "中国",
+   "p": "Zhōngguó",
+   "g": "China",
+   "pattern": [
+    1,
+    2
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "英国",
+   "p": "Yīngguó",
+   "g": "Britain",
+   "pattern": [
+    1,
+    2
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "北京",
+   "p": "Běijīng",
+   "g": "Beijing",
+   "pattern": [
+    3,
+    1
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "伦敦",
+   "p": "Lúndūn",
+   "g": "London",
+   "pattern": [
+    2,
+    1
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "饭馆",
+   "p": "fànguǎn",
+   "g": "restaurant",
+   "pattern": [
+    4,
+    3
+   ],
+   "track": "Places & directions"
+  },
+  {
+   "h": "商店",
+   "p": "shāngdiàn",
+   "g": "shop",
+   "pattern": [
+    1,
+    4
+   ],
+   "track": "Places & directions"
+  },
+  {
+   "h": "医院",
+   "p": "yīyuàn",
+   "g": "hospital",
+   "pattern": [
+    1,
+    4
+   ],
+   "track": "Places & directions"
+  },
+  {
+   "h": "旁边",
+   "p": "pángbiān",
+   "g": "next to, beside",
+   "pattern": [
+    2,
+    1
+   ],
+   "track": "Places & directions"
+  },
+  {
+   "h": "咖啡",
+   "p": "kāfēi",
+   "g": "coffee",
+   "pattern": [
+    1,
+    1
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "米饭",
+   "p": "mǐfàn",
+   "g": "rice",
+   "pattern": [
+    3,
+    4
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "鸡蛋",
+   "p": "jīdàn",
+   "g": "egg",
+   "pattern": [
+    1,
+    4
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "每天",
+   "p": "měitiān",
+   "g": "every day",
+   "pattern": [
+    3,
+    1
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "今天",
+   "p": "jīntiān",
+   "g": "today",
+   "pattern": [
+    1,
+    1
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "昨天",
+   "p": "zuótiān",
+   "g": "yesterday",
+   "pattern": [
+    2,
+    1
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "明天",
+   "p": "míngtiān",
+   "g": "tomorrow",
+   "pattern": [
+    2,
+    1
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "现在",
+   "p": "xiànzài",
+   "g": "now",
+   "pattern": [
+    4,
+    4
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "晚上",
+   "p": "wǎnshang",
+   "g": "evening",
+   "pattern": [
+    3,
+    5
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "早上",
+   "p": "zǎoshang",
+   "g": "(early) morning",
+   "pattern": [
+    3,
+    5
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "上午",
+   "p": "shàngwǔ",
+   "g": "morning (forenoon)",
+   "pattern": [
+    4,
+    3
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "下午",
+   "p": "xiàwǔ",
+   "g": "afternoon",
+   "pattern": [
+    4,
+    3
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "春天",
+   "p": "chūntiān",
+   "g": "spring",
+   "pattern": [
+    1,
+    1
+   ],
+   "track": "Weather & seasons"
+  },
+  {
+   "h": "夏天",
+   "p": "xiàtiān",
+   "g": "summer",
+   "pattern": [
+    4,
+    1
+   ],
+   "track": "Weather & seasons"
+  },
+  {
+   "h": "冬天",
+   "p": "dōngtiān",
+   "g": "winter",
+   "pattern": [
+    1,
+    1
+   ],
+   "track": "Weather & seasons"
+  },
+  {
+   "h": "秋天",
+   "p": "qiūtiān",
+   "g": "autumn",
+   "pattern": [
+    1,
+    1
+   ],
+   "track": "Weather & seasons"
+  },
+  {
+   "h": "星期",
+   "p": "xīngqī",
+   "g": "week",
+   "pattern": [
+    1,
+    1
+   ],
+   "track": "Days & dates"
+  },
+  {
+   "h": "十一",
+   "p": "shíyī",
+   "g": "eleven",
+   "pattern": [
+    2,
+    1
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "十八",
+   "p": "shíbā",
+   "g": "eighteen",
+   "pattern": [
+    2,
+    1
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "二十",
+   "p": "èrshí",
+   "g": "twenty",
+   "pattern": [
+    4,
+    2
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "三十",
+   "p": "sānshí",
+   "g": "thirty",
+   "pattern": [
+    1,
+    2
+   ],
+   "track": "Numbers & age"
+  },
+  {
+   "h": "明白",
+   "p": "míngbai",
+   "g": "to understand",
+   "pattern": [
+    2,
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "没有",
+   "p": "méiyǒu",
+   "g": "to not have",
+   "pattern": [
+    2,
+    3
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "喜欢",
+   "p": "xǐhuan",
+   "g": "to like",
+   "pattern": [
+    3,
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "知道",
+   "p": "zhīdào",
+   "g": "to know",
+   "pattern": [
+    1,
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "睡觉",
+   "p": "shuìjiào",
+   "g": "to sleep",
+   "pattern": [
+    4,
+    4
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "起床",
+   "p": "qǐchuáng",
+   "g": "to get up",
+   "pattern": [
+    3,
+    2
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "工作",
+   "p": "gōngzuò",
+   "g": "to work; work",
+   "pattern": [
+    1,
+    4
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "走路",
+   "p": "zǒulù",
+   "g": "to walk, to go on foot",
+   "pattern": [
+    3,
+    4
+   ],
+   "track": "Places & directions"
+  },
+  {
+   "h": "下雨",
+   "p": "xiàyǔ",
+   "g": "to rain",
+   "pattern": [
+    4,
+    3
+   ],
+   "track": "Weather & seasons"
+  },
+  {
+   "h": "游泳",
+   "p": "yóuyǒng",
+   "g": "to swim",
+   "pattern": [
+    2,
+    3
+   ],
+   "track": "Hobbies"
+  },
+  {
+   "h": "一点",
+   "p": "yìdiǎn",
+   "g": "a little",
+   "pattern": [
+    4,
+    3
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "好吃",
+   "p": "hǎochī",
+   "g": "tasty, good to eat",
+   "pattern": [
+    3,
+    1
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "好喝",
+   "p": "hǎohē",
+   "g": "nice to drink",
+   "pattern": [
+    3,
+    1
+   ],
+   "track": "Food & drink"
+  },
+  {
+   "h": "便宜",
+   "p": "piányi",
+   "g": "cheap",
+   "pattern": [
+    2,
+    5
+   ],
+   "track": "Shopping & money"
+  },
+  {
+   "h": "红色",
+   "p": "hóngsè",
+   "g": "red",
+   "pattern": [
+    2,
+    4
+   ],
+   "track": "Colours & things"
+  },
+  {
+   "h": "蓝色",
+   "p": "lánsè",
+   "g": "blue",
+   "pattern": [
+    2,
+    4
+   ],
+   "track": "Colours & things"
+  },
+  {
+   "h": "白色",
+   "p": "báisè",
+   "g": "white",
+   "pattern": [
+    2,
+    4
+   ],
+   "track": "Colours & things"
+  },
+  {
+   "h": "黑色",
+   "p": "hēisè",
+   "g": "black",
+   "pattern": [
+    1,
+    4
+   ],
+   "track": "Colours & things"
+  },
+  {
+   "h": "好看",
+   "p": "hǎokàn",
+   "g": "good-looking, nice",
+   "pattern": [
+    3,
+    4
+   ],
+   "track": "Colours & things"
+  },
+  {
+   "h": "高兴",
+   "p": "gāoxìng",
+   "g": "happy, glad",
+   "pattern": [
+    1,
+    4
+   ],
+   "track": "Feelings & body"
+  },
+  {
+   "h": "舒服",
+   "p": "shūfu",
+   "g": "comfortable (bù shūfu = unwell)",
+   "pattern": [
+    1,
+    5
+   ],
+   "track": "Feelings & body"
+  },
+  {
+   "h": "什么",
+   "p": "shénme",
+   "g": "what",
+   "pattern": [
+    2,
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "多少",
+   "p": "duōshao",
+   "g": "how much, how many",
+   "pattern": [
+    1,
+    5
+   ],
+   "track": "Shopping & money"
+  },
+  {
+   "h": "还是",
+   "p": "háishì",
+   "g": "or (in a question)",
+   "pattern": [
+    2,
+    4
+   ],
+   "track": "Colours & things"
+  },
+  {
+   "h": "谢谢",
+   "p": "xièxie",
+   "g": "thanks",
+   "pattern": [
+    4,
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "晚安",
+   "p": "wǎn'ān",
+   "g": "goodnight",
+   "pattern": [
+    3,
+    1
+   ],
+   "track": "Every day"
+  },
+  {
+   "h": "可是",
+   "p": "kěshì",
+   "g": "but",
+   "pattern": [
+    3,
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "因为",
+   "p": "yīnwèi",
+   "g": "because",
+   "pattern": [
+    1,
+    4
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "这个",
+   "p": "zhège",
+   "g": "this, this one",
+   "pattern": [
+    4,
+    5
+   ],
+   "track": "Shopping & money"
+  },
+  {
+   "h": "那个",
+   "p": "nàge",
+   "g": "that, that one",
+   "pattern": [
+    4,
+    5
+   ],
+   "track": "Shopping & money"
+  },
+  {
+   "h": "名字",
+   "p": "míngzi",
+   "g": "name",
+   "pattern": [
+    2,
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "中文",
+   "p": "Zhōngwén",
+   "g": "Chinese (the language)",
+   "pattern": [
+    1,
+    2
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "英文",
+   "p": "Yīngwén",
+   "g": "English (the language)",
+   "pattern": [
+    1,
+    2
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "意思",
+   "p": "yìsi",
+   "g": "meaning",
+   "pattern": [
+    4,
+    5
+   ],
+   "track": "Foundations"
+  },
+  {
+   "h": "颜色",
+   "p": "yánsè",
+   "g": "colour",
+   "pattern": [
+    2,
+    4
+   ],
+   "track": "Colours & things"
+  },
+  {
+   "h": "天气",
+   "p": "tiānqì",
+   "g": "weather",
+   "pattern": [
+    1,
+    4
+   ],
+   "track": "Weather & seasons"
+  },
+  {
+   "h": "生日",
+   "p": "shēngrì",
+   "g": "birthday",
+   "pattern": [
+    1,
+    4
+   ],
+   "track": "Days & dates"
+  },
+  {
+   "h": "篮球",
+   "p": "lánqiú",
+   "g": "basketball",
+   "pattern": [
+    2,
+    2
+   ],
+   "track": "Hobbies"
+  },
+  {
+   "h": "足球",
+   "p": "zúqiú",
+   "g": "football",
+   "pattern": [
+    2,
+    2
+   ],
+   "track": "Hobbies"
+  },
+  {
+   "h": "电影",
+   "p": "diànyǐng",
+   "g": "film, movie",
+   "pattern": [
+    4,
+    3
+   ],
+   "track": "Hobbies"
+  }
+ ],
+ "tone_names": {
+  "1": "flat / high",
+  "2": "rising",
+  "3": "dipping (low)",
+  "4": "falling",
+  "5": "neutral"
+ }
+}

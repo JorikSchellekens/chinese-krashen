@@ -1,0 +1,10 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# generated audio clips (regenerated on demand, keyed by content hash)
+cache/
+
+# macOS
+.DS_Store

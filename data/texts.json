@@ -1,0 +1,6395 @@
+{
+ "lessons": [
+  {
+   "id": "warmup",
+   "title": "Warm-up - greetings",
+   "note": "Everything you have already seen. Read it out loud. Click a sentence to hear it, double-click a word, or drag across a few.",
+   "paragraphs": [
+    [
+     {
+      "en": "Hello!",
+      "t": [
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "My name is Jorik.",
+      "t": [
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "叫",
+        "p": "jiào",
+        "g": "to be called",
+        "sp": true
+       },
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "What is your name?",
+      "t": [
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "叫",
+        "p": "jiào",
+        "g": "to be called",
+        "sp": true
+       },
+       {
+        "h": "什么",
+        "p": "shénme",
+        "g": "what",
+        "sp": true
+       },
+       {
+        "h": "名字",
+        "p": "míngzi",
+        "g": "name",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "How are you?",
+      "t": [
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "h": "吗",
+        "p": "ma",
+        "g": "(turns a sentence into a yes/no question)",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "I am very well.",
+      "t": [
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "I am okay.",
+      "t": [
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "还",
+        "p": "hái",
+        "g": "still, fairly",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "I am not very well.",
+      "t": [
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "太",
+        "p": "tài",
+        "g": "too, overly",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "And you?",
+      "t": [
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "呢",
+        "p": "ne",
+        "g": "and you? / what about...?",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Thanks!",
+      "t": [
+       {
+        "h": "谢谢",
+        "p": "xièxie",
+        "g": "thanks",
+        "sp": false
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "text-1",
+   "title": "Text 1 - who speaks Chinese",
+   "note": "New words appear woven into what you know. Do not memorise - just read.",
+   "paragraphs": [
+    [
+     {
+      "en": "My name is Xiaolin.",
+      "t": [
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "叫",
+        "p": "jiào",
+        "g": "to be called",
+        "sp": true
+       },
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "I am Chinese.",
+      "t": [
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Your name is Jorik.",
+      "t": [
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "叫",
+        "p": "jiào",
+        "g": "to be called",
+        "sp": true
+       },
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "You are not Chinese.",
+      "t": [
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bú",
+        "g": "not (said bu2 before a 4th-tone word)",
+        "sp": true
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "You are British.",
+      "t": [
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "英国",
+        "p": "Yīngguó",
+        "g": "Britain",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin is Chinese.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Xiaolin speaks Chinese.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik is British.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "英国",
+        "p": "Yīngguó",
+        "g": "Britain",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Jorik also speaks Chinese.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "也",
+        "p": "yě",
+        "g": "also, too",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik speaks a little Chinese.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "一点",
+        "p": "yìdiǎn",
+        "g": "a little",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "He does not speak much Chinese, but he speaks a little.",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "多",
+        "p": "duō",
+        "g": "much, many",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "可是",
+        "p": "kěshì",
+        "g": "but",
+        "sp": true
+       },
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "一点",
+        "p": "yìdiǎn",
+        "g": "a little",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin speaks a lot of Chinese.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "多",
+        "p": "duō",
+        "g": "much, many",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "He is Chinese!",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "text-2",
+   "title": "Text 2 - teacher and student",
+   "note": "New here: lǎoshī, xuésheng, de. They repeat many times on purpose.",
+   "paragraphs": [
+    [
+     {
+      "en": "Xiaolin is a teacher.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "She is a Chinese teacher.",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "She is a very good teacher.",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik is a student.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "学生",
+        "p": "xuésheng",
+        "g": "student",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "He is not a teacher.",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bú",
+        "g": "not (said bu2 before a 4th-tone word)",
+        "sp": true
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "He is Xiaolin's student.",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "学生",
+        "p": "xuésheng",
+        "g": "student",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin is Jorik's teacher.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Jorik is Xiaolin's student.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "学生",
+        "p": "xuésheng",
+        "g": "student",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin says: \"How are you?\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "h": "吗",
+        "p": "ma",
+        "g": "(turns a sentence into a yes/no question)",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"I am very well. And you?\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": true
+       },
+       {
+        "h": "呢",
+        "p": "ne",
+        "g": "and you? / what about...?",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin says: \"I am very well too.\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "也",
+        "p": "yě",
+        "g": "also, too",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik speaks a little Chinese.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "一点",
+        "p": "yìdiǎn",
+        "g": "a little",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Xiaolin says: \"Your Chinese is very good!\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"Thanks! But I speak a little. I do not speak much.\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "谢谢",
+        "p": "xièxie",
+        "g": "thanks",
+        "sp": false
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       },
+       {
+        "h": "可是",
+        "p": "kěshì",
+        "g": "but",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "一点",
+        "p": "yìdiǎn",
+        "g": "a little",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "多",
+        "p": "duō",
+        "g": "much, many",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin says: \"A little is very good. A little is also Chinese!\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "一点",
+        "p": "yìdiǎn",
+        "g": "a little",
+        "sp": false
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "一点",
+        "p": "yìdiǎn",
+        "g": "a little",
+        "sp": true
+       },
+       {
+        "h": "也",
+        "p": "yě",
+        "g": "also, too",
+        "sp": true
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "text-3",
+   "title": "Text 3 - I don't understand",
+   "note": "New here: Yīngwén, míngbai, yìsi. Notice how 'shénme yìsi?' means 'what does it mean?'.",
+   "paragraphs": [
+    [
+     {
+      "en": "Xiaolin is a teacher.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "She speaks Chinese, and she also speaks a little English.",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": true
+       },
+       {
+        "h": "也",
+        "p": "yě",
+        "g": "also, too",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "一点",
+        "p": "yìdiǎn",
+        "g": "a little",
+        "sp": true
+       },
+       {
+        "h": "英文",
+        "p": "Yīngwén",
+        "g": "English (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik is a student.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "学生",
+        "p": "xuésheng",
+        "g": "student",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "He speaks English, and he also speaks a little Chinese.",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "英文",
+        "p": "Yīngwén",
+        "g": "English (the language)",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": true
+       },
+       {
+        "h": "也",
+        "p": "yě",
+        "g": "also, too",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "一点",
+        "p": "yìdiǎn",
+        "g": "a little",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin speaks Chinese.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Jorik does not understand.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "明白",
+        "p": "míngbai",
+        "g": "to understand",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"I do not understand. What does it mean?\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "明白",
+        "p": "míngbai",
+        "g": "to understand",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "什么",
+        "p": "shénme",
+        "g": "what",
+        "sp": true
+       },
+       {
+        "h": "意思",
+        "p": "yìsi",
+        "g": "meaning",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin speaks English.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "英文",
+        "p": "Yīngwén",
+        "g": "English (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Jorik understands.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "明白",
+        "p": "míngbai",
+        "g": "to understand",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"Ah, I understand!\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "啊",
+        "p": "a",
+        "g": "ah (a soft exclamation)",
+        "sp": false
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "明白",
+        "p": "míngbai",
+        "g": "to understand",
+        "sp": true
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin says: \"You are a very good student.\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "学生",
+        "p": "xuésheng",
+        "g": "student",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"Thanks, teacher.\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "谢谢",
+        "p": "xièxie",
+        "g": "thanks",
+        "sp": false
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "text-3-check",
+   "title": "Check - answer shì or bú shì",
+   "note": "Read each question. Answer out loud with shì (yes) or bú shì (no).",
+   "paragraphs": [
+    [
+     {
+      "en": "Is Xiaolin Chinese?",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "h": "吗",
+        "p": "ma",
+        "g": "(turns a sentence into a yes/no question)",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Is Jorik Chinese?",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "h": "吗",
+        "p": "ma",
+        "g": "(turns a sentence into a yes/no question)",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Is Xiaolin a student?",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "学生",
+        "p": "xuésheng",
+        "g": "student",
+        "sp": true
+       },
+       {
+        "h": "吗",
+        "p": "ma",
+        "g": "(turns a sentence into a yes/no question)",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Is Jorik Xiaolin's teacher?",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "h": "吗",
+        "p": "ma",
+        "g": "(turns a sentence into a yes/no question)",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "text-4",
+   "title": "Text 4 - friends",
+   "note": "New here: yǒu / méiyǒu (have / not have), péngyou, hé, dōu, tāmen.",
+   "paragraphs": [
+    [
+     {
+      "en": "Xiaolin has a friend.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "有",
+        "p": "yǒu",
+        "g": "to have",
+        "sp": true
+       },
+       {
+        "h": "一个",
+        "p": "yí ge",
+        "g": "one, a",
+        "sp": true
+       },
+       {
+        "h": "朋友",
+        "p": "péngyou",
+        "g": "friend",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Her friend is called Wang Mei.",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "朋友",
+        "p": "péngyou",
+        "g": "friend",
+        "sp": true
+       },
+       {
+        "h": "叫",
+        "p": "jiào",
+        "g": "to be called",
+        "sp": true
+       },
+       {
+        "h": "王美",
+        "p": "Wáng Měi",
+        "g": "Wang Mei (a name)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Wang Mei is also a teacher.",
+      "t": [
+       {
+        "h": "王美",
+        "p": "Wáng Měi",
+        "g": "Wang Mei (a name)",
+        "sp": false
+       },
+       {
+        "h": "也",
+        "p": "yě",
+        "g": "also, too",
+        "sp": true
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Xiaolin and Wang Mei are both teachers.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "和",
+        "p": "hé",
+        "g": "and",
+        "sp": true
+       },
+       {
+        "h": "王美",
+        "p": "Wáng Měi",
+        "g": "Wang Mei (a name)",
+        "sp": true
+       },
+       {
+        "h": "都",
+        "p": "dōu",
+        "g": "both, all",
+        "sp": true
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "They are very good friends.",
+      "t": [
+       {
+        "h": "他们",
+        "p": "tāmen",
+        "g": "they",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "朋友",
+        "p": "péngyou",
+        "g": "friend",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik also has a friend.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "也",
+        "p": "yě",
+        "g": "also, too",
+        "sp": true
+       },
+       {
+        "h": "有",
+        "p": "yǒu",
+        "g": "to have",
+        "sp": true
+       },
+       {
+        "h": "一个",
+        "p": "yí ge",
+        "g": "one, a",
+        "sp": true
+       },
+       {
+        "h": "朋友",
+        "p": "péngyou",
+        "g": "friend",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "His friend is called Tom.",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "朋友",
+        "p": "péngyou",
+        "g": "friend",
+        "sp": true
+       },
+       {
+        "h": "叫",
+        "p": "jiào",
+        "g": "to be called",
+        "sp": true
+       },
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Tom is British.",
+      "t": [
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": false
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "英国",
+        "p": "Yīngguó",
+        "g": "Britain",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Tom does not speak Chinese.",
+      "t": [
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Tom does not have a Chinese teacher.",
+      "t": [
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": false
+       },
+       {
+        "h": "没有",
+        "p": "méiyǒu",
+        "g": "to not have",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Jorik has a Chinese teacher.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "有",
+        "p": "yǒu",
+        "g": "to have",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"I have a teacher, but you do not have a teacher.\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "有",
+        "p": "yǒu",
+        "g": "to have",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "可是",
+        "p": "kěshì",
+        "g": "but",
+        "sp": true
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": true
+       },
+       {
+        "h": "没有",
+        "p": "méiyǒu",
+        "g": "to not have",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Tom says: \"I do not have a teacher, but I have you! You are my Chinese teacher.\"",
+      "t": [
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "没有",
+        "p": "méiyǒu",
+        "g": "to not have",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "可是",
+        "p": "kěshì",
+        "g": "but",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "有",
+        "p": "yǒu",
+        "g": "to have",
+        "sp": true
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": true
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": true
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"I am not a teacher! I am a student. I speak a little Chinese, I do not speak much.\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bú",
+        "g": "not (said bu2 before a 4th-tone word)",
+        "sp": true
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "学生",
+        "p": "xuésheng",
+        "g": "student",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "一点",
+        "p": "yìdiǎn",
+        "g": "a little",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "多",
+        "p": "duō",
+        "g": "much, many",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "text-5",
+   "title": "Text 5 - where people live",
+   "note": "New here: zhù (live), zài (at / in), nǎr (where), Běijīng, Lúndūn.",
+   "paragraphs": [
+    [
+     {
+      "en": "Xiaolin lives in Beijing.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Beijing is in China.",
+      "t": [
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": false
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik lives in London.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "伦敦",
+        "p": "Lúndūn",
+        "g": "London",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "London is in Britain.",
+      "t": [
+       {
+        "h": "伦敦",
+        "p": "Lúndūn",
+        "g": "London",
+        "sp": false
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "英国",
+        "p": "Yīngguó",
+        "g": "Britain",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Wang Mei says: \"Where does Jorik live?\"",
+      "t": [
+       {
+        "h": "王美",
+        "p": "Wáng Měi",
+        "g": "Wang Mei (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "哪儿",
+        "p": "nǎr",
+        "g": "where",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin says: \"He lives in London.\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "伦敦",
+        "p": "Lúndūn",
+        "g": "London",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Wang Mei says: \"Where is London?\"",
+      "t": [
+       {
+        "h": "王美",
+        "p": "Wáng Měi",
+        "g": "Wang Mei (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "伦敦",
+        "p": "Lúndūn",
+        "g": "London",
+        "sp": false
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "哪儿",
+        "p": "nǎr",
+        "g": "where",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin says: \"London is in Britain. London is not in China.\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "伦敦",
+        "p": "Lúndūn",
+        "g": "London",
+        "sp": false
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "英国",
+        "p": "Yīngguó",
+        "g": "Britain",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "伦敦",
+        "p": "Lúndūn",
+        "g": "London",
+        "sp": true
+       },
+       {
+        "h": "不",
+        "p": "bú",
+        "g": "not (said bu2 before a 4th-tone word)",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Tom also lives in London.",
+      "t": [
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": false
+       },
+       {
+        "h": "也",
+        "p": "yě",
+        "g": "also, too",
+        "sp": true
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "伦敦",
+        "p": "Lúndūn",
+        "g": "London",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Jorik and Tom both live in London; they both live in Britain.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "和",
+        "p": "hé",
+        "g": "and",
+        "sp": true
+       },
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": true
+       },
+       {
+        "h": "都",
+        "p": "dōu",
+        "g": "both, all",
+        "sp": true
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "伦敦",
+        "p": "Lúndūn",
+        "g": "London",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "他们",
+        "p": "tāmen",
+        "g": "they",
+        "sp": true
+       },
+       {
+        "h": "都",
+        "p": "dōu",
+        "g": "both, all",
+        "sp": true
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "英国",
+        "p": "Yīngguó",
+        "g": "Britain",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin and Wang Mei both live in Beijing; they are both Chinese.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "和",
+        "p": "hé",
+        "g": "and",
+        "sp": true
+       },
+       {
+        "h": "王美",
+        "p": "Wáng Měi",
+        "g": "Wang Mei (a name)",
+        "sp": true
+       },
+       {
+        "h": "都",
+        "p": "dōu",
+        "g": "both, all",
+        "sp": true
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "他们",
+        "p": "tāmen",
+        "g": "they",
+        "sp": true
+       },
+       {
+        "h": "都",
+        "p": "dōu",
+        "g": "both, all",
+        "sp": true
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Jorik does not live in Beijing, but his teacher lives in Beijing.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bú",
+        "g": "not (said bu2 before a 4th-tone word)",
+        "sp": true
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "可是",
+        "p": "kěshì",
+        "g": "but",
+        "sp": true
+       },
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "text-6",
+   "title": "Text 6 - likes and reasons",
+   "note": "New here: xǐhuan (like), wèishénme (why), yīnwèi (because), nán, cài, hǎochī.",
+   "paragraphs": [
+    [
+     {
+      "en": "Jorik likes Chinese.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "喜欢",
+        "p": "xǐhuan",
+        "g": "to like",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "He likes Chinese a lot.",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "喜欢",
+        "p": "xǐhuan",
+        "g": "to like",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Tom says: \"Why do you like Chinese?\"",
+      "t": [
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "为什么",
+        "p": "wèishénme",
+        "g": "why",
+        "sp": true
+       },
+       {
+        "h": "喜欢",
+        "p": "xǐhuan",
+        "g": "to like",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"Because Chinese is very interesting.\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "因为",
+        "p": "yīnwèi",
+        "g": "because",
+        "sp": false
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "有意思",
+        "p": "yǒuyìsi",
+        "g": "interesting",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Tom says: \"But Chinese is very hard!\"",
+      "t": [
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "可是",
+        "p": "kěshì",
+        "g": "but",
+        "sp": false
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "难",
+        "p": "nán",
+        "g": "hard, difficult",
+        "sp": true
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"Right, Chinese is very hard. Very hard, but very interesting.\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "对",
+        "p": "duì",
+        "g": "right, correct",
+        "sp": false
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "难",
+        "p": "nán",
+        "g": "hard, difficult",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "难",
+        "p": "nán",
+        "g": "hard, difficult",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "可是",
+        "p": "kěshì",
+        "g": "but",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "有意思",
+        "p": "yǒuyìsi",
+        "g": "interesting",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik also likes Chinese food.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "也",
+        "p": "yě",
+        "g": "also, too",
+        "sp": true
+       },
+       {
+        "h": "喜欢",
+        "p": "xǐhuan",
+        "g": "to like",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "菜",
+        "p": "cài",
+        "g": "food, dish",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "He says: \"Chinese food is very tasty.\"",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": false
+       },
+       {
+        "h": "菜",
+        "p": "cài",
+        "g": "food, dish",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好吃",
+        "p": "hǎochī",
+        "g": "tasty, good to eat",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Tom does not like Chinese food.",
+      "t": [
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "喜欢",
+        "p": "xǐhuan",
+        "g": "to like",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "菜",
+        "p": "cài",
+        "g": "food, dish",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Tom likes British food.",
+      "t": [
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": false
+       },
+       {
+        "h": "喜欢",
+        "p": "xǐhuan",
+        "g": "to like",
+        "sp": true
+       },
+       {
+        "h": "英国",
+        "p": "Yīngguó",
+        "g": "Britain",
+        "sp": true
+       },
+       {
+        "h": "菜",
+        "p": "cài",
+        "g": "food, dish",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"British food is not tasty!\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "英国",
+        "p": "Yīngguó",
+        "g": "Britain",
+        "sp": false
+       },
+       {
+        "h": "菜",
+        "p": "cài",
+        "g": "food, dish",
+        "sp": true
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "好吃",
+        "p": "hǎochī",
+        "g": "tasty, good to eat",
+        "sp": true
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Tom says: \"I do not understand. Why is it not tasty?\"",
+      "t": [
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "明白",
+        "p": "míngbai",
+        "g": "to understand",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "为什么",
+        "p": "wèishénme",
+        "g": "why",
+        "sp": true
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "好吃",
+        "p": "hǎochī",
+        "g": "tasty, good to eat",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"Because I am British, I know.\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "因为",
+        "p": "yīnwèi",
+        "g": "because",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "英国",
+        "p": "Yīngguó",
+        "g": "Britain",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "知道",
+        "p": "zhīdào",
+        "g": "to know",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "text-7",
+   "title": "Text 7 - wanting to go to China",
+   "note": "The longest yet. New here: měitiān, xuéxí, xiǎng, qù, lái, wǒmen, chī, and the phrase 'qǐng zài shuō yí biàn' (please say it again).",
+   "paragraphs": [
+    [
+     {
+      "en": "Jorik studies Chinese every day.",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "每天",
+        "p": "měitiān",
+        "g": "every day",
+        "sp": true
+       },
+       {
+        "h": "学习",
+        "p": "xuéxí",
+        "g": "to study",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Every day!",
+      "t": [
+       {
+        "h": "每天",
+        "p": "měitiān",
+        "g": "every day",
+        "sp": false
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "He really likes studying Chinese.",
+      "t": [
+       {
+        "h": "他",
+        "p": "tā",
+        "g": "he / she",
+        "sp": false
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "喜欢",
+        "p": "xǐhuan",
+        "g": "to like",
+        "sp": true
+       },
+       {
+        "h": "学习",
+        "p": "xuéxí",
+        "g": "to study",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Xiaolin is in Beijing, Jorik is in London, but they speak Chinese every day.",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "伦敦",
+        "p": "Lúndūn",
+        "g": "London",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "可是",
+        "p": "kěshì",
+        "g": "but",
+        "sp": true
+       },
+       {
+        "h": "他们",
+        "p": "tāmen",
+        "g": "they",
+        "sp": true
+       },
+       {
+        "h": "每天",
+        "p": "měitiān",
+        "g": "every day",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin says: \"Do you want to go to China?\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "想",
+        "p": "xiǎng",
+        "g": "to want to, would like to",
+        "sp": true
+       },
+       {
+        "h": "去",
+        "p": "qù",
+        "g": "to go, to go to",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "吗",
+        "p": "ma",
+        "g": "(turns a sentence into a yes/no question)",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"I really want to go to China! I want to go to Beijing.\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "想",
+        "p": "xiǎng",
+        "g": "to want to, would like to",
+        "sp": true
+       },
+       {
+        "h": "去",
+        "p": "qù",
+        "g": "to go, to go to",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "想",
+        "p": "xiǎng",
+        "g": "to want to, would like to",
+        "sp": true
+       },
+       {
+        "h": "去",
+        "p": "qù",
+        "g": "to go, to go to",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin says: \"Why do you want to go to Beijing?\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "为什么",
+        "p": "wèishénme",
+        "g": "why",
+        "sp": true
+       },
+       {
+        "h": "想",
+        "p": "xiǎng",
+        "g": "to want to, would like to",
+        "sp": true
+       },
+       {
+        "h": "去",
+        "p": "qù",
+        "g": "to go, to go to",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"Because you live in Beijing, because Beijing has many Chinese people, and because Beijing has very tasty food.\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "因为",
+        "p": "yīnwèi",
+        "g": "because",
+        "sp": false
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": true
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "因为",
+        "p": "yīnwèi",
+        "g": "because",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "h": "有",
+        "p": "yǒu",
+        "g": "to have",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "多",
+        "p": "duō",
+        "g": "much, many",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "和",
+        "p": "hé",
+        "g": "and",
+        "sp": true
+       },
+       {
+        "h": "因为",
+        "p": "yīnwèi",
+        "g": "because",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "h": "有",
+        "p": "yǒu",
+        "g": "to have",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好吃",
+        "p": "hǎochī",
+        "g": "tasty, good to eat",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "菜",
+        "p": "cài",
+        "g": "food, dish",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin says: \"Good! You come to Beijing, we eat Chinese food.\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": false
+       },
+       {
+        "p": "!",
+        "h": "！",
+        "sp": false
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": true
+       },
+       {
+        "h": "来",
+        "p": "lái",
+        "g": "to come",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "我们",
+        "p": "wǒmen",
+        "g": "we, us",
+        "sp": true
+       },
+       {
+        "h": "吃",
+        "p": "chī",
+        "g": "to eat",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "菜",
+        "p": "cài",
+        "g": "food, dish",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"But my Chinese is not good. In Beijing, I do not understand Chinese people. They speak a lot, I speak a little.\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "可是",
+        "p": "kěshì",
+        "g": "but",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "北京",
+        "p": "Běijīng",
+        "g": "Beijing",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "明白",
+        "p": "míngbai",
+        "g": "to understand",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "他们",
+        "p": "tāmen",
+        "g": "they",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "多",
+        "p": "duō",
+        "g": "much, many",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "一点",
+        "p": "yìdiǎn",
+        "g": "a little",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin says: \"No problem. You say: 'I do not understand. Please say it once more.' Chinese people are very nice, they will say it again.\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "没关系",
+        "p": "méi guānxi",
+        "g": "no problem, it's ok",
+        "sp": false
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "'",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "明白",
+        "p": "míngbai",
+        "g": "to understand",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "请",
+        "p": "qǐng",
+        "g": "please",
+        "sp": true
+       },
+       {
+        "h": "再",
+        "p": "zài",
+        "g": "again",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "一遍",
+        "p": "yí biàn",
+        "g": "once (one time through)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "'",
+        "h": "",
+        "sp": false
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "人",
+        "p": "rén",
+        "g": "person",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "p": ",",
+        "h": "，",
+        "sp": false
+       },
+       {
+        "h": "他们",
+        "p": "tāmen",
+        "g": "they",
+        "sp": true
+       },
+       {
+        "h": "会",
+        "p": "huì",
+        "g": "will, can",
+        "sp": true
+       },
+       {
+        "h": "再",
+        "p": "zài",
+        "g": "again",
+        "sp": true
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "h": "一遍",
+        "p": "yí biàn",
+        "g": "once (one time through)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Jorik says: \"Good. I understand now.\"",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": false
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "我",
+        "p": "wǒ",
+        "g": "I, me",
+        "sp": true
+       },
+       {
+        "h": "明白",
+        "p": "míngbai",
+        "g": "to understand",
+        "sp": true
+       },
+       {
+        "h": "了",
+        "p": "le",
+        "g": "(marks something completed or changed)",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ],
+    [
+     {
+      "en": "Xiaolin says: \"Your Chinese is very good. You are a very good student.\"",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "说",
+        "p": "shuō",
+        "g": "to speak, to say",
+        "sp": true
+       },
+       {
+        "p": ":",
+        "h": "：",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": true
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": false
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "h": "你",
+        "p": "nǐ",
+        "g": "you",
+        "sp": true
+       },
+       {
+        "h": "是",
+        "p": "shì",
+        "g": "to be (am / is / are)",
+        "sp": true
+       },
+       {
+        "h": "很",
+        "p": "hěn",
+        "g": "very",
+        "sp": true
+       },
+       {
+        "h": "好",
+        "p": "hǎo",
+        "g": "good, well",
+        "sp": true
+       },
+       {
+        "h": "的",
+        "p": "de",
+        "g": "('s / of - links a describer to a noun)",
+        "sp": true
+       },
+       {
+        "h": "学生",
+        "p": "xuésheng",
+        "g": "student",
+        "sp": true
+       },
+       {
+        "p": ".",
+        "h": "。",
+        "sp": false
+       },
+       {
+        "p": "\"",
+        "h": "",
+        "sp": false
+       }
+      ]
+     }
+    ]
+   ]
+  },
+  {
+   "id": "text-7-check",
+   "title": "Check - answer in English",
+   "note": "Read each question and answer in English in your head. No output pressure yet.",
+   "paragraphs": [
+    [
+     {
+      "en": "Does Tom have a Chinese teacher?",
+      "t": [
+       {
+        "h": "Tom",
+        "p": "Tom",
+        "g": "Tom (a name)",
+        "sp": false
+       },
+       {
+        "h": "有",
+        "p": "yǒu",
+        "g": "to have",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "h": "老师",
+        "p": "lǎoshī",
+        "g": "teacher",
+        "sp": true
+       },
+       {
+        "h": "吗",
+        "p": "ma",
+        "g": "(turns a sentence into a yes/no question)",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Where does Xiaolin live?",
+      "t": [
+       {
+        "h": "小林",
+        "p": "Xiǎolín",
+        "g": "Xiaolin (a name)",
+        "sp": false
+       },
+       {
+        "h": "住",
+        "p": "zhù",
+        "g": "to live, to stay",
+        "sp": true
+       },
+       {
+        "h": "在",
+        "p": "zài",
+        "g": "to be at / in (a place)",
+        "sp": true
+       },
+       {
+        "h": "哪儿",
+        "p": "nǎr",
+        "g": "where",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Why does Jorik like Chinese?",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "为什么",
+        "p": "wèishénme",
+        "g": "why",
+        "sp": true
+       },
+       {
+        "h": "喜欢",
+        "p": "xǐhuan",
+        "g": "to like",
+        "sp": true
+       },
+       {
+        "h": "中文",
+        "p": "Zhōngwén",
+        "g": "Chinese (the language)",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Who does not like Chinese food?",
+      "t": [
+       {
+        "h": "谁",
+        "p": "shéi",
+        "g": "who",
+        "sp": false
+       },
+       {
+        "h": "不",
+        "p": "bù",
+        "g": "not",
+        "sp": true
+       },
+       {
+        "h": "喜欢",
+        "p": "xǐhuan",
+        "g": "to like",
+        "sp": true
+       },
+       {
+        "h": "中国",
+        "p": "Zhōngguó",
+        "g": "China",
+        "sp": true
+       },
+       {
+        "h": "菜",
+        "p": "cài",
+        "g": "food, dish",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     },
+     {
+      "en": "Where does Jorik want to go? Why?",
+      "t": [
+       {
+        "h": "Jorik",
+        "p": "Jorik",
+        "g": "Jorik (your name)",
+        "sp": false
+       },
+       {
+        "h": "想",
+        "p": "xiǎng",
+        "g": "to want to, would like to",
+        "sp": true
+       },
+       {
+        "h": "去",
+        "p": "qù",
+        "g": "to go, to go to",
+        "sp": true
+       },
+       {
+        "h": "哪儿",
+        "p": "nǎr",
+        "g": "where",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       },
+       {
+        "h": "为什么",
+        "p": "wèishénme",
+        "g": "why",
+        "sp": true
+       },
+       {
+        "p": "?",
+        "h": "？",
+        "sp": false
+       }
+      ]
+     }
+    ]
+   ]
+  }
+ ],
+ "dictionary": [
+  {
+   "title": "Warm-up - greetings",
+   "words": [
+    {
+     "h": "你",
+     "p": "nǐ",
+     "g": "you"
+    },
+    {
+     "h": "好",
+     "p": "hǎo",
+     "g": "good, well"
+    },
+    {
+     "h": "我",
+     "p": "wǒ",
+     "g": "I, me"
+    },
+    {
+     "h": "叫",
+     "p": "jiào",
+     "g": "to be called"
+    },
+    {
+     "h": "Jorik",
+     "p": "Jorik",
+     "g": "Jorik (your name)"
+    },
+    {
+     "h": "什么",
+     "p": "shénme",
+     "g": "what"
+    },
+    {
+     "h": "名字",
+     "p": "míngzi",
+     "g": "name"
+    },
+    {
+     "h": "吗",
+     "p": "ma",
+     "g": "(turns a sentence into a yes/no question)"
+    },
+    {
+     "h": "很",
+     "p": "hěn",
+     "g": "very"
+    },
+    {
+     "h": "还",
+     "p": "hái",
+     "g": "still, fairly"
+    },
+    {
+     "h": "不",
+     "p": "bù",
+     "g": "not"
+    },
+    {
+     "h": "太",
+     "p": "tài",
+     "g": "too, overly"
+    },
+    {
+     "h": "呢",
+     "p": "ne",
+     "g": "and you? / what about...?"
+    },
+    {
+     "h": "谢谢",
+     "p": "xièxie",
+     "g": "thanks"
+    }
+   ]
+  },
+  {
+   "title": "Text 1 - who speaks Chinese",
+   "words": [
+    {
+     "h": "小林",
+     "p": "Xiǎolín",
+     "g": "Xiaolin (a name)"
+    },
+    {
+     "h": "是",
+     "p": "shì",
+     "g": "to be (am / is / are)"
+    },
+    {
+     "h": "中国",
+     "p": "Zhōngguó",
+     "g": "China"
+    },
+    {
+     "h": "人",
+     "p": "rén",
+     "g": "person"
+    },
+    {
+     "h": "英国",
+     "p": "Yīngguó",
+     "g": "Britain"
+    },
+    {
+     "h": "说",
+     "p": "shuō",
+     "g": "to speak, to say"
+    },
+    {
+     "h": "中文",
+     "p": "Zhōngwén",
+     "g": "Chinese (the language)"
+    },
+    {
+     "h": "也",
+     "p": "yě",
+     "g": "also, too"
+    },
+    {
+     "h": "一点",
+     "p": "yìdiǎn",
+     "g": "a little"
+    },
+    {
+     "h": "他",
+     "p": "tā",
+     "g": "he / she"
+    },
+    {
+     "h": "多",
+     "p": "duō",
+     "g": "much, many"
+    },
+    {
+     "h": "可是",
+     "p": "kěshì",
+     "g": "but"
+    }
+   ]
+  },
+  {
+   "title": "Text 2 - teacher and student",
+   "words": [
+    {
+     "h": "老师",
+     "p": "lǎoshī",
+     "g": "teacher"
+    },
+    {
+     "h": "的",
+     "p": "de",
+     "g": "('s / of - links a describer to a noun)"
+    },
+    {
+     "h": "学生",
+     "p": "xuésheng",
+     "g": "student"
+    }
+   ]
+  },
+  {
+   "title": "Text 3 - I don't understand",
+   "words": [
+    {
+     "h": "英文",
+     "p": "Yīngwén",
+     "g": "English (the language)"
+    },
+    {
+     "h": "明白",
+     "p": "míngbai",
+     "g": "to understand"
+    },
+    {
+     "h": "意思",
+     "p": "yìsi",
+     "g": "meaning"
+    },
+    {
+     "h": "啊",
+     "p": "a",
+     "g": "ah (a soft exclamation)"
+    }
+   ]
+  },
+  {
+   "title": "Text 4 - friends",
+   "words": [
+    {
+     "h": "有",
+     "p": "yǒu",
+     "g": "to have"
+    },
+    {
+     "h": "一个",
+     "p": "yí ge",
+     "g": "one, a"
+    },
+    {
+     "h": "朋友",
+     "p": "péngyou",
+     "g": "friend"
+    },
+    {
+     "h": "王美",
+     "p": "Wáng Měi",
+     "g": "Wang Mei (a name)"
+    },
+    {
+     "h": "和",
+     "p": "hé",
+     "g": "and"
+    },
+    {
+     "h": "都",
+     "p": "dōu",
+     "g": "both, all"
+    },
+    {
+     "h": "他们",
+     "p": "tāmen",
+     "g": "they"
+    },
+    {
+     "h": "Tom",
+     "p": "Tom",
+     "g": "Tom (a name)"
+    },
+    {
+     "h": "没有",
+     "p": "méiyǒu",
+     "g": "to not have"
+    }
+   ]
+  },
+  {
+   "title": "Text 5 - where people live",
+   "words": [
+    {
+     "h": "住",
+     "p": "zhù",
+     "g": "to live, to stay"
+    },
+    {
+     "h": "在",
+     "p": "zài",
+     "g": "to be at / in (a place)"
+    },
+    {
+     "h": "北京",
+     "p": "Běijīng",
+     "g": "Beijing"
+    },
+    {
+     "h": "伦敦",
+     "p": "Lúndūn",
+     "g": "London"
+    },
+    {
+     "h": "哪儿",
+     "p": "nǎr",
+     "g": "where"
+    }
+   ]
+  },
+  {
+   "title": "Text 6 - likes and reasons",
+   "words": [
+    {
+     "h": "喜欢",
+     "p": "xǐhuan",
+     "g": "to like"
+    },
+    {
+     "h": "为什么",
+     "p": "wèishénme",
+     "g": "why"
+    },
+    {
+     "h": "因为",
+     "p": "yīnwèi",
+     "g": "because"
+    },
+    {
+     "h": "有意思",
+     "p": "yǒuyìsi",
+     "g": "interesting"
+    },
+    {
+     "h": "难",
+     "p": "nán",
+     "g": "hard, difficult"
+    },
+    {
+     "h": "对",
+     "p": "duì",
+     "g": "right, correct"
+    },
+    {
+     "h": "菜",
+     "p": "cài",
+     "g": "food, dish"
+    },
+    {
+     "h": "好吃",
+     "p": "hǎochī",
+     "g": "tasty, good to eat"
+    },
+    {
+     "h": "知道",
+     "p": "zhīdào",
+     "g": "to know"
+    }
+   ]
+  },
+  {
+   "title": "Text 7 - wanting to go to China",
+   "words": [
+    {
+     "h": "每天",
+     "p": "měitiān",
+     "g": "every day"
+    },
+    {
+     "h": "学习",
+     "p": "xuéxí",
+     "g": "to study"
+    },
+    {
+     "h": "想",
+     "p": "xiǎng",
+     "g": "to want to, would like to"
+    },
+    {
+     "h": "去",
+     "p": "qù",
+     "g": "to go, to go to"
+    },
+    {
+     "h": "来",
+     "p": "lái",
+     "g": "to come"
+    },
+    {
+     "h": "我们",
+     "p": "wǒmen",
+     "g": "we, us"
+    },
+    {
+     "h": "吃",
+     "p": "chī",
+     "g": "to eat"
+    },
+    {
+     "h": "没关系",
+     "p": "méi guānxi",
+     "g": "no problem, it's ok"
+    },
+    {
+     "h": "请",
+     "p": "qǐng",
+     "g": "please"
+    },
+    {
+     "h": "再",
+     "p": "zài",
+     "g": "again"
+    },
+    {
+     "h": "一遍",
+     "p": "yí biàn",
+     "g": "once (one time through)"
+    },
+    {
+     "h": "会",
+     "p": "huì",
+     "g": "will, can"
+    },
+    {
+     "h": "了",
+     "p": "le",
+     "g": "(marks something completed or changed)"
+    }
+   ]
+  },
+  {
+   "title": "Check - answer in English",
+   "words": [
+    {
+     "h": "谁",
+     "p": "shéi",
+     "g": "who"
+    }
+   ]
+  }
+ ]
+}

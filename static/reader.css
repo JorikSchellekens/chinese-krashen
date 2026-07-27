@@ -1,0 +1,292 @@
+:root {
+  --bg: #faf7f0;
+  --panel: #fffdf8;
+  --ink: #2b2620;
+  --muted: #8a8172;
+  --line: #e7e0d3;
+  --accent: #b23a2e;
+  --accent-soft: #f4e0dc;
+  --good: #3f7d4f;
+  --shadow: 0 2px 10px rgba(60, 45, 20, .10);
+  --header-h: 56px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17140f;
+    --panel: #201c16;
+    --ink: #ece6da;
+    --muted: #9a9080;
+    --line: #332d23;
+    --accent: #e0796b;
+    --accent-soft: #3a241f;
+    --good: #7fb98c;
+    --shadow: 0 2px 12px rgba(0, 0, 0, .4);
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  /* fixed app shell: the page itself never scrolls */
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* thin, unobtrusive scrollbars on the scrolling columns */
+nav.left, main#reader, aside.right {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+nav.left::-webkit-scrollbar,
+main#reader::-webkit-scrollbar,
+aside.right::-webkit-scrollbar { width: 8px; height: 8px; }
+nav.left::-webkit-scrollbar-thumb,
+main#reader::-webkit-scrollbar-thumb,
+aside.right::-webkit-scrollbar-thumb { background: var(--line); border-radius: 8px; }
+nav.left::-webkit-scrollbar-thumb:hover,
+main#reader::-webkit-scrollbar-thumb:hover,
+aside.right::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+nav.left::-webkit-scrollbar-track,
+main#reader::-webkit-scrollbar-track,
+aside.right::-webkit-scrollbar-track { background: transparent; }
+
+header {
+  flex: 0 0 var(--header-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 20px;
+  padding: 0 24px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-weight: 700; letter-spacing: .2px; }
+.i-plus {
+  font-size: 12px;
+  color: #fff;
+  background: var(--accent);
+  padding: 1px 7px;
+  border-radius: 999px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+.controls { display: flex; gap: 16px; align-items: center; }
+.controls label { font-size: 13px; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+.controls select {
+  font: inherit;
+  font-size: 13px;
+  padding: 3px 6px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--ink);
+}
+.toggle {
+  font: inherit;
+  font-size: 13px;
+  padding: 5px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--ink);
+  cursor: pointer;
+}
+.toggle[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* three columns; the dictionary column only exists when toggled on */
+.layout {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 0;
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+}
+body.show-dict .layout { grid-template-columns: 200px minmax(0, 1fr) 340px; }
+
+/* left rail ---------------------------------------------------------------- */
+nav.left {
+  min-height: 0;
+  overflow-y: auto;
+  padding: 16px 12px 24px;
+  border-right: 1px solid var(--line);
+}
+.rail-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--muted);
+  margin: 0 0 8px 10px;
+}
+.progress { margin: 0 10px 12px; }
+.progress-bar {
+  height: 6px;
+  border-radius: 6px;
+  background: var(--line);
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  width: 0;
+  background: var(--good);
+  transition: width .25s ease;
+}
+.progress-text { font-size: 12px; color: var(--muted); margin-top: 5px; }
+
+nav.left button.lesson {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  font: inherit;
+  font-size: 14px;
+  text-align: left;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 8px;
+  background: none;
+  color: var(--ink);
+  cursor: pointer;
+}
+nav.left button.lesson:hover { background: var(--accent-soft); }
+nav.left button.lesson.active { background: var(--accent); color: #fff; font-weight: 600; }
+.tick {
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid var(--line);
+  border-radius: 50%;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  color: transparent;
+}
+button.lesson.done .tick {
+  background: var(--good);
+  border-color: var(--good);
+  color: #fff;
+}
+button.lesson.active.done .tick { background: #fff; border-color: #fff; color: var(--accent); }
+
+/* reader ------------------------------------------------------------------- */
+main#reader {
+  min-height: 0;
+  min-width: 0;
+  overflow-y: auto;
+  padding: 20px 32px 40px;
+}
+.lesson-head { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 0 0 4px; }
+.lesson-head h2 { font-size: 22px; margin: 0; }
+.mark-btn {
+  font: inherit;
+  font-size: 13px;
+  padding: 5px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--muted);
+  cursor: pointer;
+}
+.mark-btn:hover { border-color: var(--good); color: var(--good); }
+.mark-btn.done { background: var(--good); border-color: var(--good); color: #fff; }
+.note { color: var(--muted); font-size: 14px; margin: 2px 0 18px; max-width: 60ch; }
+
+.para { margin: 0 0 20px; }
+.text { font-size: 24px; line-height: 2.1; }
+.sentence { cursor: pointer; border-radius: 4px; }
+.sentence:hover { background: var(--accent-soft); }
+.word { border-radius: 4px; padding: 0 1px; }
+.punct { color: var(--muted); }
+
+/* dictionary (floating right panel) --------------------------------------- */
+aside.right {
+  display: none;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 16px 16px 28px;
+  border-left: 1px solid var(--line);
+  background: var(--panel);
+}
+body.show-dict aside.right { display: block; }
+.dict-head { font-size: 16px; font-weight: 700; margin: 0 0 2px; }
+.dict-sub { font-size: 12px; color: var(--muted); margin: 0 0 10px; }
+.dict-section {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--accent);
+  margin: 16px 0 6px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--line);
+}
+.dict-section:first-of-type { margin-top: 4px; }
+.dict-entry { display: flex; gap: 8px; align-items: baseline; padding: 3px 0; }
+.dict-entry .word {
+  cursor: pointer;
+  font-size: 16px;
+  min-width: 5.2em;
+  flex-shrink: 0;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+.dict-entry .word:hover { background: var(--accent-soft); }
+.dict-gloss { color: var(--muted); font-size: 13px; line-height: 1.35; }
+
+/* footer strip ------------------------------------------------------------- */
+footer#help {
+  flex: 0 0 auto;
+  padding: 9px 24px;
+  font-size: 12.5px;
+  color: var(--muted);
+  background: var(--panel);
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+
+/* popup + status ----------------------------------------------------------- */
+.popup {
+  position: absolute;
+  z-index: 20;
+  max-width: 260px;
+  padding: 10px 13px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  font-size: 14px;
+}
+.popup .pu-head { font-size: 17px; font-weight: 600; line-height: 1.35; }
+.popup .pu-gloss { color: var(--muted); margin-top: 4px; }
+
+.status {
+  position: fixed;
+  bottom: 52px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--ink);
+  color: var(--bg);
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  z-index: 30;
+  opacity: .92;
+}
+
+@media (max-width: 1000px) {
+  body.show-dict .layout { grid-template-columns: 200px minmax(0, 1fr); }
+  body.show-dict aside.right { display: none; }
+}
+@media (max-width: 680px) {
+  .layout, body.show-dict .layout { grid-template-columns: 1fr; }
+  nav.left { border-right: none; border-bottom: 1px solid var(--line); }
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mandarin reader</title>
+  <link rel="stylesheet" href="/reader.css">
+</head>
+<body>
+  <header>
+    <div class="brand">Mandarin reader <span class="i-plus">i+1</span></div>
+    <div class="controls">
+      <label>Voice
+        <select id="voice"></select>
+      </label>
+      <label>Speed
+        <select id="rate">
+          <option value="120">slow</option>
+          <option value="150">easy</option>
+          <option value="170" selected>normal</option>
+          <option value="200">brisk</option>
+        </select>
+      </label>
+      <button id="dictToggle" class="toggle" aria-pressed="false">Dictionary</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav id="lessonNav" class="left">
+      <div class="rail-title">Texts</div>
+      <div id="progress" class="progress"></div>
+      <div id="lessonList"></div>
+    </nav>
+
+    <main id="reader" aria-live="polite"></main>
+
+    <aside id="dict" class="right"></aside>
+  </div>
+
+  <footer id="help">
+    <b>Click a sentence</b> to hear it and see its translation &nbsp;&middot;&nbsp;
+    <b>double-click a word</b> for its meaning &nbsp;&middot;&nbsp;
+    <b>drag across words</b> to hear just those
+  </footer>
+
+  <div id="popup" class="popup" hidden></div>
+  <div id="status" class="status" hidden></div>
+
+  <script src="/reader.js"></script>
+</body>
+</html>

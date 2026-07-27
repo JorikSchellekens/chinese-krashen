@@ -1,0 +1,12 @@
+[project]
+name = "chinese-krashen"
+version = "0.1.0"
+description = "Local Mandarin reader with neural + system TTS"
+# Pinned below 3.13 because the neural-TTS stack (kokoro/misaki) targets 3.12.
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "kokoro",
+    "misaki[zh]",
+    "soundfile",
+    "numpy",
+]

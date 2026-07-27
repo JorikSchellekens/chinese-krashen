@@ -2,47 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#faf7f0">
   <title>Mandarin reader</title>
   <link rel="stylesheet" href="/reader.css">
 </head>
 <body>
   <header>
-    <div class="brand">Mandarin reader <span class="i-plus">i+1</span></div>
-    <div class="controls">
-      <label>Voice
-        <select id="voice"></select>
-      </label>
-      <label>Speed
-        <select id="rate">
-          <option value="120">slow</option>
-          <option value="150">easy</option>
-          <option value="170" selected>normal</option>
-          <option value="200">brisk</option>
-        </select>
-      </label>
-      <button id="dictToggle" class="toggle" aria-pressed="false">Dictionary</button>
-    </div>
+    <button id="menuToggle" class="icon-btn" aria-label="Texts menu" aria-expanded="false">
+      <span class="bars"></span>
+    </button>
+    <div class="brand">Mandarin <span class="i-plus">i+1</span></div>
+    <div class="spacer"></div>
+    <button id="dictToggle" class="toggle" aria-pressed="false">词 Dictionary</button>
   </header>
 
-  <div class="layout">
-    <nav id="lessonNav" class="left">
-      <div class="rail-title">Texts</div>
+  <div class="app">
+    <!-- left: tracks + lessons + settings -->
+    <nav id="lessonNav" class="drawer left" aria-label="Texts">
       <div id="progress" class="progress"></div>
-      <div id="lessonList"></div>
+      <div id="trackList" class="tracks"></div>
+      <div class="settings">
+        <label>Voice
+          <select id="voice"></select>
+        </label>
+        <label>Speed
+          <select id="rate">
+            <option value="120">slow</option>
+            <option value="150">easy</option>
+            <option value="170" selected>normal</option>
+            <option value="200">brisk</option>
+          </select>
+        </label>
+      </div>
     </nav>
 
     <main id="reader" aria-live="polite"></main>
 
-    <aside id="dict" class="right"></aside>
+    <!-- right: dictionary -->
+    <aside id="dict" class="drawer right" aria-label="Dictionary"></aside>
   </div>
 
   <footer id="help">
-    <b>Click a sentence</b> to hear it and see its translation &nbsp;&middot;&nbsp;
-    <b>double-click a word</b> for its meaning &nbsp;&middot;&nbsp;
-    <b>drag across words</b> to hear just those
+    <b>Tap a sentence</b> to hear it &middot;
+    <b>double-tap a word</b> for its meaning &middot;
+    <b>drag across words</b> to hear a phrase
   </footer>
 
+  <div id="scrim" class="scrim" hidden></div>
   <div id="popup" class="popup" hidden></div>
   <div id="status" class="status" hidden></div>
 

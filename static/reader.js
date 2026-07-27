@@ -1,12 +1,14 @@
 "use strict";
 
 const els = {
+  menuToggle: document.getElementById("menuToggle"),
   nav: document.getElementById("lessonNav"),
-  list: document.getElementById("lessonList"),
+  trackList: document.getElementById("trackList"),
   progress: document.getElementById("progress"),
   reader: document.getElementById("reader"),
   dict: document.getElementById("dict"),
   dictToggle: document.getElementById("dictToggle"),
+  scrim: document.getElementById("scrim"),
   voice: document.getElementById("voice"),
   rate: document.getElementById("rate"),
   popup: document.getElementById("popup"),
@@ -22,13 +24,16 @@ let statusTimer = null;
 // Persisted state
 const PROG_KEY = "mandarin-progress";
 const DICT_KEY = "mandarin-dict-open";
+const VOICE_KEY = "mandarin-voice";
+const RATE_KEY = "mandarin-rate";
 
-let lessons = [];               // all lessons, in order
+let tracks = [];                // [{id,title,blurb,lessons:[...]}]
+let flat = [];                  // [{trackId, lesson}] in reading order
 const railButtons = new Map();  // lesson id -> rail button
+const trackEls = new Map();     // track id -> {wrap, count, lessonBtns:[]}
 let currentId = null;
+let currentTrackId = null;
 
-// Each value is "engine:voice"; grouped into <optgroup>s. A group is only shown
-// if the server reports its engine is available (say is macOS-only).
 const VOICE_GROUPS = [
   { engine: "kokoro", label: "Kokoro - neural", voices: [
     ["kokoro:zf_xiaoxiao", "Xiaoxiao (F)"],
@@ -67,10 +72,15 @@ function showStatus(msg) {
   statusTimer = setTimeout(() => (els.status.hidden = true), 2500);
 }
 
+function splitVoice(value) {
+  const i = value.indexOf(":");
+  return [value.slice(0, i), value.slice(i + 1)];
+}
+
 async function speak(hanzi) {
   hanzi = (hanzi || "").trim();
   if (!hanzi) return;
-  const [engine, voice] = splitVoice(els.voice.value);
+  const [engine, voice] = splitVoice(els.voice.value || "kokoro:zf_xiaoxiao");
   const rate = els.rate.value;
   const key = `${engine}|${voice}|${rate}|${hanzi}`;
 
@@ -103,18 +113,28 @@ function escapeHtml(s) {
   return s.replace(/[&<>"]/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 }
-function showPopup(x, y, headline, gloss) {
+// x,y are viewport coordinates (clientX/clientY). preferAbove keeps the popup
+// off the finger on touch.
+function showPopup(x, y, headline, gloss, preferAbove) {
   const p = els.popup;
   p.innerHTML =
     `<div class="pu-head">${escapeHtml(headline)}</div>` +
     (gloss ? `<div class="pu-gloss">${escapeHtml(gloss)}</div>` : "");
   p.hidden = false;
   const pr = p.getBoundingClientRect();
-  let left = Math.max(8, Math.min(x - pr.width / 2, window.innerWidth - pr.width - 8));
-  let top = y + 14;
-  if (top + pr.height > window.innerHeight - 8) top = y - pr.height - 14;
-  p.style.left = left + window.scrollX + "px";
-  p.style.top = top + window.scrollY + "px";
+  const vw = window.innerWidth, vh = window.innerHeight;
+  const left = Math.max(8, Math.min(x - pr.width / 2, vw - pr.width - 8));
+  let top;
+  if (preferAbove) {
+    top = y - pr.height - 16;
+    if (top < 8) top = y + 20;
+  } else {
+    top = y + 16;
+    if (top + pr.height > vh - 8) top = y - pr.height - 16;
+  }
+  top = Math.max(8, Math.min(top, vh - pr.height - 8));
+  p.style.left = left + "px";
+  p.style.top = top + "px";
 }
 function hidePopup() { els.popup.hidden = true; }
 
@@ -149,9 +169,23 @@ function renderSentence(sentence) {
   return span;
 }
 
-function renderLesson(lesson) {
+function levelDots(level) {
+  const n = Math.max(1, Math.min(3, level || 1));
+  return "●".repeat(n) + "○".repeat(3 - n);
+}
+
+function renderLesson(entry) {
+  const { lesson, trackId } = entry;
+  const track = tracks.find((t) => t.id === trackId);
   els.reader.innerHTML = "";
   els.reader.scrollTop = 0;
+
+  if (track) {
+    const tk = document.createElement("div");
+    tk.className = "lesson-track";
+    tk.textContent = track.title;
+    els.reader.appendChild(tk);
+  }
 
   const head = document.createElement("div");
   head.className = "lesson-head";
@@ -168,8 +202,8 @@ function renderLesson(lesson) {
   };
   refreshMark();
   mark.addEventListener("click", () => {
-    progress[lesson.id] = !progress[lesson.id];
-    if (!progress[lesson.id]) delete progress[lesson.id];
+    if (progress[lesson.id]) delete progress[lesson.id];
+    else progress[lesson.id] = true;
     saveProgress();
     refreshMark();
     updateProgressUI();
@@ -190,6 +224,33 @@ function renderLesson(lesson) {
     para.forEach((s) => p.appendChild(renderSentence(s)));
     els.reader.appendChild(p);
   });
+
+  renderLessonNav(entry);
+}
+
+function renderLessonNav(entry) {
+  const idx = flat.findIndex((e) => e.lesson.id === entry.lesson.id);
+  const prev = idx > 0 ? flat[idx - 1] : null;
+  const next = idx < flat.length - 1 ? flat[idx + 1] : null;
+
+  const bar = document.createElement("div");
+  bar.className = "lesson-nav-btns";
+
+  const pb = document.createElement("button");
+  pb.className = "prev";
+  pb.textContent = "← Previous";
+  if (prev) pb.addEventListener("click", () => goto(prev.trackId, prev.lesson.id));
+  else pb.disabled = true;
+  bar.appendChild(pb);
+
+  const nb = document.createElement("button");
+  nb.className = "next";
+  nb.textContent = "Next →";
+  if (next) nb.addEventListener("click", () => goto(next.trackId, next.lesson.id));
+  else nb.disabled = true;
+  bar.appendChild(nb);
+
+  els.reader.appendChild(bar);
 }
 
 function renderDictionary(sections) {
@@ -202,13 +263,13 @@ function renderDictionary(sections) {
   const total = sections.reduce((n, s) => n + s.words.length, 0);
   const sub = document.createElement("div");
   sub.className = "dict-sub";
-  sub.textContent = `${total} words so far - click to hear`;
+  sub.textContent = `${total} words, grouped by kind - tap to hear`;
   els.dict.appendChild(sub);
 
   sections.forEach((sec) => {
     const h3 = document.createElement("div");
     h3.className = "dict-section";
-    h3.textContent = sec.title.split(" - ")[0];
+    h3.textContent = sec.label;
     els.dict.appendChild(h3);
     sec.words.forEach((tok) => {
       const entry = document.createElement("div");
@@ -230,78 +291,232 @@ function renderDictionary(sections) {
 }
 
 // ---------------------------------------------------------------------------
-// Progress UI
+// Progress UI (overall bar + per-track counts + ticks)
 // ---------------------------------------------------------------------------
 function updateProgressUI() {
-  const total = lessons.length;
-  const done = lessons.filter((l) => progress[l.id]).length;
+  const total = flat.length;
+  const done = flat.filter((e) => progress[e.lesson.id]).length;
   els.progress.innerHTML =
     `<div class="progress-bar"><div class="progress-fill" style="width:${
       total ? (done / total) * 100 : 0}%"></div></div>` +
-    `<div class="progress-text">${done} of ${total} read</div>`;
+    `<div class="progress-text">${done} of ${total} texts read</div>`;
   railButtons.forEach((btn, id) => btn.classList.toggle("done", !!progress[id]));
+  tracks.forEach((t) => {
+    const d = t.lessons.filter((l) => progress[l.id]).length;
+    const te = trackEls.get(t.id);
+    if (te) {
+      te.count.textContent = `${d}/${t.lessons.length}`;
+      te.wrap.classList.toggle("done-all", d === t.lessons.length && d > 0);
+    }
+  });
 }
 
 // ---------------------------------------------------------------------------
-// Routing:  #<lesson-id>  keeps the open text across refresh / sharing
+// Routing:  #<track>/<lesson>  (old #<lesson> still resolves)
 // ---------------------------------------------------------------------------
-function idFromHash() {
-  return decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+function parseHash() {
+  const raw = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+  if (!raw) return null;
+  const slash = raw.indexOf("/");
+  if (slash >= 0) return { track: raw.slice(0, slash), lesson: raw.slice(slash + 1) };
+  return { track: null, lesson: raw };   // legacy: just a lesson id
 }
 
-function selectLesson(id, { updateHash = true } = {}) {
-  const lesson = lessons.find((l) => l.id === id) || lessons[0];
-  if (!lesson) return;
-  currentId = lesson.id;
-  railButtons.forEach((btn, lid) => btn.classList.toggle("active", lid === lesson.id));
-  hidePopup();
-  renderLesson(lesson);
-  if (updateHash && idFromHash() !== lesson.id) {
-    location.hash = "#" + encodeURIComponent(lesson.id);
+function findEntry(track, lesson) {
+  if (lesson) {
+    const byLesson = flat.find((e) => e.lesson.id === lesson);
+    if (byLesson) return byLesson;
+    // a slashless token might actually be a track id (e.g. #numbers)
+    const asTrack = flat.find((e) => e.trackId === lesson);
+    if (asTrack) return asTrack;
   }
+  if (track) {
+    const t = flat.find((e) => e.trackId === track);
+    if (t) return t;
+  }
+  return flat[0];
+}
+
+function goto(trackId, lessonId) {
+  location.hash = "#" + encodeURIComponent(trackId) + "/" + encodeURIComponent(lessonId);
+}
+
+function selectFromHash() {
+  const h = parseHash();
+  const entry = findEntry(h && h.track, h && h.lesson);
+  if (!entry) return;
+  currentId = entry.lesson.id;
+  currentTrackId = entry.trackId;
+
+  railButtons.forEach((btn, lid) => btn.classList.toggle("active", lid === currentId));
+  openTrack(entry.trackId, true);
+  hidePopup();
+  renderLesson(entry);
+
+  // keep the URL canonical (track/lesson)
+  const canonical = "#" + encodeURIComponent(entry.trackId) + "/" + encodeURIComponent(entry.lesson.id);
+  if (location.hash !== canonical) history.replaceState(null, "", canonical);
 }
 
 // ---------------------------------------------------------------------------
-// Interactions:  click = sentence,  double-click = word,  drag = selection
+// Nav: track accordion
 // ---------------------------------------------------------------------------
-let downAt = null;
-let suppressClick = false;
-let clickTimer = null;
+function openTrack(trackId, exclusive) {
+  trackEls.forEach((te, id) => {
+    if (id === trackId) te.wrap.classList.add("open");
+    else if (exclusive) te.wrap.classList.remove("open");
+  });
+}
 
-function handleSentence(target, x, y) {
+function buildNav() {
+  els.trackList.innerHTML = "";
+  tracks.forEach((track) => {
+    const wrap = document.createElement("div");
+    wrap.className = "track";
+
+    const head = document.createElement("button");
+    head.className = "track-head";
+    const caret = document.createElement("span");
+    caret.className = "caret"; caret.textContent = "▶";
+    const title = document.createElement("span");
+    title.className = "t-title"; title.textContent = track.title;
+    const count = document.createElement("span");
+    count.className = "t-count";
+    head.append(caret, title, count);
+    head.addEventListener("click", () => wrap.classList.toggle("open"));
+    wrap.appendChild(head);
+
+    const list = document.createElement("div");
+    list.className = "track-lessons";
+    track.lessons.forEach((lesson) => {
+      const b = document.createElement("button");
+      b.className = "lesson";
+      const tick = document.createElement("span");
+      tick.className = "tick"; tick.textContent = "✓";
+      const lt = document.createElement("span");
+      lt.className = "l-title";
+      lt.textContent = shortLessonTitle(lesson.title);
+      const lvl = document.createElement("span");
+      lvl.className = "lvl"; lvl.textContent = levelDots(lesson.level);
+      b.title = lesson.title;
+      b.append(tick, lt, lvl);
+      b.addEventListener("click", () => { goto(track.id, lesson.id); closeDrawers(); });
+      railButtons.set(lesson.id, b);
+      list.appendChild(b);
+    });
+    wrap.appendChild(list);
+
+    els.trackList.appendChild(wrap);
+    trackEls.set(track.id, { wrap, count, });
+  });
+}
+
+function shortLessonTitle(title) {
+  // "Text 3 - I don't understand" -> "I don't understand"; "Warm-up - greetings" -> "greetings"
+  const dash = title.indexOf(" - ");
+  return dash >= 0 ? title.slice(dash + 3) : title;
+}
+
+// ---------------------------------------------------------------------------
+// Drawers (mobile) + dictionary column (desktop)
+// ---------------------------------------------------------------------------
+function isWide() { return window.matchMedia("(min-width: 900px)").matches; }
+
+function updateScrim() {
+  const open = document.body.classList.contains("nav-open") ||
+               (document.body.classList.contains("dict-open") && !isWide());
+  els.scrim.hidden = !open;
+}
+function setNav(open) {
+  document.body.classList.toggle("nav-open", open);
+  els.menuToggle.setAttribute("aria-expanded", open ? "true" : "false");
+  updateScrim();
+}
+function setDict(open) {
+  document.body.classList.toggle("dict-open", open);
+  els.dictToggle.setAttribute("aria-pressed", open ? "true" : "false");
+  localStorage.setItem(DICT_KEY, open ? "1" : "0");
+  updateScrim();
+}
+function closeDrawers() { setNav(false); if (!isWide()) setDict(false); }
+
+// ---------------------------------------------------------------------------
+// Interactions:  tap = sentence,  double-tap = word,  drag = phrase
+// Unified across mouse + touch via Pointer Events.
+// ---------------------------------------------------------------------------
+function handleSentence(target, x, y, above) {
   const sen = target.closest(".sentence");
-  if (sen) { speak(sen.dataset.h); showPopup(x, y, sen.dataset.en); return; }
+  if (sen) { speak(sen.dataset.h); showPopup(x, y, sen.dataset.en, "", above); return; }
   const w = target.closest(".word");
-  if (w) handleWord(w, x, y);
+  if (w) handleWord(w, x, y, above);
 }
-function handleWord(word, x, y) {
+function handleWord(word, x, y, above) {
   speak(word.dataset.h);
-  showPopup(x, y, word.dataset.p, word.dataset.g);
+  showPopup(x, y, word.dataset.p, word.dataset.g, above);
 }
-function handleDrag(sel, x, y) {
+function handleDrag(sel, x, y, above) {
   const hanzi = [], gloss = [];
   els.reader.querySelectorAll(".word").forEach((w) => {
     if (sel.containsNode(w, true)) { hanzi.push(w.dataset.h); gloss.push(w.dataset.g); }
   });
   if (!hanzi.length) return;
   speak(hanzi.join(""));
-  showPopup(x, y, sel.toString().trim(), gloss.join("  ·  "));
+  showPopup(x, y, sel.toString().trim(), gloss.join("  ·  "), above);
+}
+
+let downPt = null;
+let pendingTap = null;
+let lastTap = null;   // {t, word}
+
+function setupReaderInteractions() {
+  els.reader.addEventListener("pointerdown", (e) => {
+    downPt = { x: e.clientX, y: e.clientY };
+  });
+
+  els.reader.addEventListener("pointerup", (e) => {
+    const touch = e.pointerType !== "mouse";
+    const x = e.clientX, y = e.clientY;
+    const dist = downPt ? Math.hypot(x - downPt.x, y - downPt.y) : 0;
+    const sel = window.getSelection();
+
+    // a real drag with a text selection -> phrase
+    if (sel && !sel.isCollapsed && dist > 8) {
+      clearTimeout(pendingTap); pendingTap = null; lastTap = null;
+      handleDrag(sel, x, y, touch);
+      return;
+    }
+    if (dist > 8) return;   // a scroll/swipe, not a tap
+
+    const word = e.target.closest(".word");
+
+    // second tap on the same word within the window -> word lookup
+    if (lastTap && word && lastTap.word === word && (performance.now() - lastTap.t) < 350) {
+      clearTimeout(pendingTap); pendingTap = null; lastTap = null;
+      handleWord(word, x, y, touch);
+      return;
+    }
+
+    // otherwise: remember this tap, and after the double-tap window, treat it
+    // as a sentence tap
+    lastTap = word ? { t: performance.now(), word } : null;
+    const target = e.target;
+    clearTimeout(pendingTap);
+    pendingTap = setTimeout(() => {
+      pendingTap = null; lastTap = null;
+      handleSentence(target, x, y, touch);
+    }, word ? 300 : 0);
+  });
+
+  // dictionary word -> speak + meaning (single tap is fine here)
+  els.dict.addEventListener("click", (e) => {
+    const w = e.target.closest(".word");
+    if (w) handleWord(w, e.clientX, e.clientY, e.pointerType !== "mouse");
+  });
 }
 
 // ---------------------------------------------------------------------------
-// Init
+// Voice menu
 // ---------------------------------------------------------------------------
-function setDict(open) {
-  document.body.classList.toggle("show-dict", open);
-  els.dictToggle.setAttribute("aria-pressed", open ? "true" : "false");
-  localStorage.setItem(DICT_KEY, open ? "1" : "0");
-}
-
-function splitVoice(value) {
-  const i = value.indexOf(":");
-  return [value.slice(0, i), value.slice(i + 1)];
-}
-
 function buildVoiceMenu(engines) {
   els.voice.innerHTML = "";
   VOICE_GROUPS.forEach((group) => {
@@ -315,90 +530,59 @@ function buildVoiceMenu(engines) {
     });
     els.voice.appendChild(g);
   });
+  const saved = localStorage.getItem(VOICE_KEY);
+  if (saved && [...els.voice.options].some((o) => o.value === saved)) els.voice.value = saved;
 }
 
+// ---------------------------------------------------------------------------
+// Init
+// ---------------------------------------------------------------------------
 function init() {
+  const savedRate = localStorage.getItem(RATE_KEY);
+  if (savedRate) els.rate.value = savedRate;
+  els.rate.addEventListener("change", () => localStorage.setItem(RATE_KEY, els.rate.value));
+  els.voice.addEventListener("change", () => localStorage.setItem(VOICE_KEY, els.voice.value));
+
   fetch("/config")
     .then((r) => r.json())
     .then((cfg) => buildVoiceMenu(cfg.engines))
     .catch(() => buildVoiceMenu({ kokoro: true, say: true }));
 
-  // dictionary hidden by default; remember the user's choice
-  setDict(localStorage.getItem(DICT_KEY) === "1");
+  // dictionary: remember choice, but never auto-open the overlay on small screens
+  setDict(localStorage.getItem(DICT_KEY) === "1" && isWide());
   els.dictToggle.addEventListener("click", () =>
-    setDict(!document.body.classList.contains("show-dict")));
+    setDict(!document.body.classList.contains("dict-open")));
+  els.menuToggle.addEventListener("click", () =>
+    setNav(!document.body.classList.contains("nav-open")));
+  els.scrim.addEventListener("click", closeDrawers);
 
   fetch("/data/texts.json")
     .then((r) => r.json())
     .then((data) => {
-      lessons = data.lessons;
+      tracks = data.tracks;
+      flat = [];
+      tracks.forEach((t) => t.lessons.forEach((lesson) => flat.push({ trackId: t.id, lesson })));
 
-      lessons.forEach((lesson) => {
-        const b = document.createElement("button");
-        b.className = "lesson";
-        b.innerHTML = `<span class="tick">✓</span><span></span>`;
-        b.lastChild.textContent = lesson.title.split(" - ")[0];
-        b.title = lesson.title;
-        b.addEventListener("click", () =>
-          (location.hash = "#" + encodeURIComponent(lesson.id)));
-        railButtons.set(lesson.id, b);
-        els.list.appendChild(b);
-      });
-
+      buildNav();
       renderDictionary(data.dictionary);
       updateProgressUI();
-
-      // open the lesson named in the URL, else the first one
-      const wanted = idFromHash();
-      selectLesson(lessons.some((l) => l.id === wanted) ? wanted : lessons[0].id);
+      selectFromHash();
     });
 
-  // hash changes (back/forward, edited URL, rail clicks) drive the selection
   window.addEventListener("hashchange", () => {
-    const id = idFromHash();
-    if (id && id !== currentId) selectLesson(id, { updateHash: false });
+    const h = parseHash();
+    const entry = findEntry(h && h.track, h && h.lesson);
+    if (entry && entry.lesson.id !== currentId) selectFromHash();
   });
 
-  // reader interactions
-  els.reader.addEventListener("mousedown", (e) => {
-    downAt = { x: e.clientX, y: e.clientY };
-    suppressClick = false;
-  });
-  els.reader.addEventListener("mouseup", (e) => {
-    const sel = window.getSelection();
-    const dist = downAt ? Math.hypot(e.clientX - downAt.x, e.clientY - downAt.y) : 0;
-    if (sel && !sel.isCollapsed && dist > 6) {
-      suppressClick = true;
-      clearTimeout(clickTimer);
-      handleDrag(sel, e.pageX, e.pageY);
-    }
-  });
-  els.reader.addEventListener("click", (e) => {
-    if (suppressClick) return;
-    const target = e.target, x = e.pageX, y = e.pageY;
-    clearTimeout(clickTimer);
-    clickTimer = setTimeout(() => handleSentence(target, x, y), 240);
-  });
-  els.reader.addEventListener("dblclick", (e) => {
-    clearTimeout(clickTimer);
-    const w = e.target.closest(".word");
-    if (w) handleWord(w, e.pageX, e.pageY);
-  });
+  window.addEventListener("resize", updateScrim);
+  setupReaderInteractions();
 
-  // dictionary word -> speak + meaning
-  els.dict.addEventListener("click", (e) => {
-    const w = e.target.closest(".word");
-    if (w) handleWord(w, e.pageX, e.pageY);
-  });
-
-  // Dismiss the popup on any click outside the popup itself. A click that
-  // lands on a word or sentence re-opens a fresh popup via its own handler.
-  document.addEventListener("mousedown", (e) => {
+  // dismiss popup on any pointer outside it; Esc also closes
+  document.addEventListener("pointerdown", (e) => {
     if (!els.popup.hidden && !els.popup.contains(e.target)) hidePopup();
   });
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") hidePopup();
-  });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") { hidePopup(); closeDrawers(); } });
 }
 
 init();

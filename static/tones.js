@@ -46,21 +46,40 @@ function loadStats() {
 function saveStats() { localStorage.setItem(STATS_KEY, JSON.stringify(stats)); }
 
 // ---- voices ----------------------------------------------------------------
-const VOICE_KEY = "tone-voice";
+// Same list, same default, and the SAME storage key as the reader, so the neural
+// (kokoro) voice is the default and a voice picked on either page carries over.
+const VOICE_KEY = "mandarin-voice";
+const DEFAULT_VOICE = "kokoro:zf_xiaoxiao";
+const VOICE_GROUPS = [
+  { engine: "kokoro", voices: [
+    ["kokoro:zf_xiaoxiao", "Xiaoxiao (F, neural)"],
+    ["kokoro:zf_xiaoyi", "Xiaoyi (F, neural)"],
+    ["kokoro:zf_xiaobei", "Xiaobei (F, neural)"],
+    ["kokoro:zm_yunxi", "Yunxi (M, neural)"],
+    ["kokoro:zm_yunyang", "Yunyang (M, neural)"],
+    ["kokoro:zm_yunjian", "Yunjian (M, neural)"],
+  ] },
+  { engine: "say", voices: [
+    ["say:Tingting", "Tingting (F, system)"],
+    ["say:Sandy (Chinese (China mainland))", "Sandy (F, system)"],
+    ["say:Flo (Chinese (China mainland))", "Flo (F, system)"],
+    ["say:Reed (Chinese (China mainland))", "Reed (M, system)"],
+    ["say:Eddy (Chinese (China mainland))", "Eddy (M, system)"],
+  ] },
+];
 function voiceOptions() {
   const list = [];
-  if (ENGINES.say) {
-    list.push(["say:Tingting", "Tingting (say - clean tones)"]);
-    list.push(["say:Meijia", "Meijia (say)"]);
-  }
-  list.push(["kokoro:zf_xiaoxiao", "Xiaoxiao (neural)"]);
-  list.push(["kokoro:zm_yunyang", "Yunyang (neural)"]);
+  VOICE_GROUPS.forEach((g) => {
+    if (ENGINES[g.engine] === false) return;
+    g.voices.forEach((v) => list.push(v));
+  });
   return list;
 }
 function currentVoice() {
   const v = localStorage.getItem(VOICE_KEY);
   const opts = voiceOptions().map((o) => o[0]);
-  return opts.includes(v) ? v : opts[0];
+  if (opts.includes(v)) return v;
+  return opts.includes(DEFAULT_VOICE) ? DEFAULT_VOICE : opts[0];
 }
 
 // ---- tts -------------------------------------------------------------------
